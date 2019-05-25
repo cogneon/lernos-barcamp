@@ -1,1 +1,0 @@
-pandoc lernOS-Barcamp-Guide-de.md metadata.yaml -o lernOS-Barcamp-Guide-de.pdf --from markdown --template lernOS --number-sections -V lang=de-de

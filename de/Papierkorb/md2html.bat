@@ -1,1 +1,0 @@
-pandoc -s -o lernOS-Barcamp-Guide-de.html lernOS-Barcamp-Guide-de.md
