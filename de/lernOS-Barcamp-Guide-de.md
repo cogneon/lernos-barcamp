@@ -43,65 +43,65 @@ Grundhaltung über Schein/Kultur ...
 
 Mache dich mit den Grundlagen des Podcastings über das Grundlagen-Kapitel sowie die weiterführenden Literatur- und Weblinks vertraut.
 
-## Kata: Besuche ein Barcamp und studiere Barcamps aus der Ferne (KHP)
+## Kata: Barcamp Hospitation - Live & Remote (KHP)
 
-## Kata: Fülle den Barcamp Canvas aus (SD)
+## Kata: Nutze den Barcamp Canvas (SD)
 
 ... Beschreibungstext des Canvas ...
 
 ![lernOS Barcamp Canvas](images/lernOS-Barcamp-Canvas-de-300dpi.png)
 
-## Kata: Führe ein Barcamp Kick-off durch (KHP)
+## Kata: Barcamp Kick-off (KHP)
 
 Rechtliches, Foto, Film, Veranstalter, Versicherung
 
-## Kata: Erstelle den Barcamp-Steckbrief (KHP)
+## Kata: Key Facts mit dem Barcamp Steckbrief (KHP)
 
 1-Pager mit Ziel, Zweck, Titel, Warum etc. ...
 
-## Kata: Erstelle einen Community-Fahrplan (SD)
+## Kata: Der Community Fahrplan (SD)
 
 Experten, Influencer, Hochschulen ... die wichtig für das Barcamp sind ...
 
-## Kata: Erstelle einen Kommunikationsplan (KHP, SD)
+## Kata: Kommunikation, Kommunikation, Kommunikation (KHP, SD)
 
 Marketing, PR. Wann willst du was an welche Zielgruppe kommunizieren
 
-## Kata: Erstelle einen Flächennutzungsplan (KHP)
+## Kata: Wie nutzen wir die Fläche? (KHP)
 
 Plenum, Breakout-Räume, Ausstattung, Infrastruktur
 
-## Kata: Erstelle eine Webseite für das Barcamp (SD)
+## Kata: Die Webseite für das Barcamp (SD)
 
 Webseite + Anmeldeprozess
 
-## Kata: Baue eine Community Plattform auf (SD)
+## Kata: Barcamp Community Habitat (SD)
 
-## Kata: Erstelle einen Drehbuch für das Barcamp (KHP)
+## Kata: Klappe - Das Barcamp Drehbuch (KHP)
 
 Nicht Sessionplan, sondern für die Orga, wann Aufbau, etc., Veranstaltungsmanagement
 
-## Kata: Erlerne die richtige Haltung für die Moderation durch Lean Coffee's (KHP)
+## Kata: Barcamp Mindset mit Lean Coffee entwickeln (KHP)
 
-Lean Coffee durchführen, Parallen zum Moderationsskript aufzeigen und Moderationsskript erstellen
+Lean Coffee durchführen, Parallen zum Moderationsskript aufzeigen und Moderationsskript erstellen, https://leancoffee.org
 
-## Kata: Erstelle ein Konzept für die Barcamp-Dokumentation (SD)
+## Kata: Wie dokumentieren wir das Barcamp? (SD)
 
 Text, Audio, Video, Fotos, Etherpad, Google Doc
 
-## Kata: Erstelle ein Fund Raising Konzept (KHP)
+## Kata: Fund Raising - Money, Money, Money (KHP)
 
 Sponsorengewinnung
 
-## Kata: Erstelle ein Feelgood-/Atmospheren-Konzept (KHP, SD)
+## Kata: Ein Team für die Atmosphäre (KHP, SD)
 
 Klima, Stimmung, Energielevel, Abendevent, Community Lounge, Musik, Dekoration, Licht, Kunst
 
-# Keep Calm & Learn On! :-)
+Keep Calm & Learn On! :-)
 
 ... Standard-Kapitel ...
 
 # Änderungshistorie
 | Version | Bearbeitet von | Beschreibung Änderung | Datum |
 |---------|----------------|-----------------------|-------|
-| 0.1 | Simon Dückert | ... | dd.mm.yyyy |
+| 0.1 | Simon Dückert, Karlheinz Pape | ... | dd.mm.2019 |
