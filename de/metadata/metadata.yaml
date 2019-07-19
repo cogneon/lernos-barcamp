@@ -1,6 +1,6 @@
 ---
-title: "lernOS Barcamp Leitfaden (CC BY)"
-subtitle: "... Untertitel ..."
+title: "lernOS BarCamp Leitfaden (CC BY)"
+subtitle: "WE bring the Structure, YOU bring the Content!"
 author: [Simon Dückert, Karlheinz Pape]
 date: "Version 0.1 (dd.mm.2019)"
 titlepage: true
@@ -11,7 +11,7 @@ links-as-notes: true
 lof: false
 toc: true
 toc-own-page: true
-toc-depth: 2
+toc-depth: 3
 logo: images/lernOS-logo-white-4000px.png
 logo-width: 300
 ---
