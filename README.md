@@ -1,1 +1,1 @@
-# barcamp
+# lernOS Barcamp Guide

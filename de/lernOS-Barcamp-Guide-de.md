@@ -261,6 +261,7 @@ Alle Beispiele nach einer einheitlichen Struktur in einem Steckbrief-artigen Kap
 
 Mache dich mit den Grundlagen des Podcastings über das Grundlagen-Kapitel sowie die weiterführenden Literatur- und Weblinks vertraut.
 
+<<<<<<< HEAD
 ## Kata: Besuche ein BarCamp und studiere Barcamps aus der Ferne (KHP)
 
 Wie oben beschrieben, ist das besondere Klima ein wesentlicher Erfolgsfaktor für gelungene BarCamps. Diese andere Art des Miteinander-Umgehens muss erst hergestellt werden. Das setzt aber eine innere Haltung der Veranstalter voraus, die glaubwürdig bei den Teilgebenden ankommt. Dieses "Loslassen-Können", das "Zutrauen" und das "Vertrauen" lässt sich nicht vermitteln, das kann man sich nur selber erarbeiten. 
@@ -282,16 +283,25 @@ Der "Aktivitätsgrad" der Teilgebenden eines BarCamps ist auch ein Indikator fü
 Vielleicht findest Du gut dokumentierte BarCamps, die Du auch aus der Ferne zusätzlich ein wenig auswerten kannst. 
 
 ## Kata: Fülle den BarCamp Canvas aus (SD)
+=======
+## Kata: Barcamp Hospitation - Live & Remote (KHP)
+
+## Kata: Nutze den Barcamp Canvas (SD)
+>>>>>>> 3d57aec96bf4613fd077be00d4fd320341f921ca
 
 ... Beschreibungstext des Canvas ...
 
 ![lernOS Barcamp Canvas](images/lernOS-Barcamp-Canvas-de-300dpi.png)
 
+<<<<<<< HEAD
 ## Kata: Erstelle den BarCamp-Steckbrief (KHP)
 
 Ein BarCamp ist eine Konferenz, nur anders gestaltet. Als Veranstalter hast Du die Verantwortung dafür, dass sich die Konferenz für die Teilgebenden gelohnt haben wird. Deshalb ist es wichtig, Dir und allen Beteiligten klar zu machen, was das BarCamp bewirken soll, in welchem Rahmen das abläuft, wen es ansprechen soll, wie es finanziert wird, usw. 
 
 Gib dafür Antworten auf folgende Fragen:
+=======
+## Kata: Barcamp Kick-off (KHP)
+>>>>>>> 3d57aec96bf4613fd077be00d4fd320341f921ca
 
 - Langtitel / Kurztitel / Hashtag: Thema/Themen-BarCamp
 - Motto oder Untertitel: 
@@ -304,6 +314,10 @@ Gib dafür Antworten auf folgende Fragen:
 - Argumente, warum es sich für Teilgebende lohnt mitzumachen:
 - Ticket-Kosten
 
+<<<<<<< HEAD
+=======
+## Kata: Key Facts mit dem Barcamp Steckbrief (KHP)
+>>>>>>> 3d57aec96bf4613fd077be00d4fd320341f921ca
 
 
 ## Kata: Führe das BarCamp-OrgaTeam Kick-off durch (KHP)
@@ -320,15 +334,15 @@ Deshalb ist es besonders wichtig, gleich zu Beginn mit allen im OrgaTeam ein gem
 
 Besprich den Aufgabenplan und bitte die OrgaTeam-Mitglieder, bis zum nächsten Treffen eine der oben beschriebenen Rollen (Checkliste) zu wählen. Vereinbare auch gleich regelmäßige Termine für die gegenseitige Information - am besten online mit jeweils maximal 45 Minuten, im Abstand von jeweils 2 bis 3 Wochen.
 
-## Kata: Erstelle einen Community-Fahrplan (SD)
+## Kata: Der Community Fahrplan (SD)
 
 Experten, Influencer, Hochschulen ... die wichtig für das Barcamp sind ...
 
-## Kata: Erstelle einen Kommunikationsplan (KHP, SD)
+## Kata: Kommunikation, Kommunikation, Kommunikation (KHP, SD)
 
 Marketing, PR. Wann willst du was an welche Zielgruppe kommunizieren
 
-## Kata: Erstelle einen Flächennutzungsplan (KHP)
+## Kata: Wie nutzen wir die Fläche? (KHP)
 
 (Plenum, Breakout-Räume, Ausstattung, Infrastruktur)
 
@@ -349,33 +363,33 @@ Und die Freifläche muss ggf. auch Strom und Platz für Sponsoren-Stände hergeb
 - Suche für Dein BarCamp mehrere mögliche Locations aus, und erkundige dich nach den Bedingungen
 - Falls Du einen Abendevent planst: Wenn möglich am gleichen Ort. Es braucht dort nur gutes Essen, Getränke und eine angenehme Atmosphäre (geeignete Beleuchtung, evt. Hintergrundmusik). Die Vernetzung der Teilgebenden steht im Vordergrund. Verzichte auf Live-Musik (die stört meist nur).
 
-## Kata: Erstelle eine Webseite für das Barcamp (SD)
+## Kata: Die Webseite für das Barcamp (SD)
 
 Webseite + Anmeldeprozess
 
-## Kata: Baue eine Community Plattform auf (SD)
+## Kata: Barcamp Community Habitat (SD)
 
-## Kata: Erstelle einen Drehbuch für das Barcamp (KHP)
+## Kata: Klappe - Das Barcamp Drehbuch (KHP)
 
 Nicht Sessionplan, sondern für die Orga, wann Aufbau, etc., Veranstaltungsmanagement
 
-## Kata: Erlerne die richtige Haltung für die Moderation durch Lean Coffee's (KHP)
+## Kata: Barcamp Mindset mit Lean Coffee entwickeln (KHP)
 
-Lean Coffee durchführen, Parallen zum Moderationsskript aufzeigen und Moderationsskript erstellen
+Lean Coffee durchführen, Parallen zum Moderationsskript aufzeigen und Moderationsskript erstellen, https://leancoffee.org
 
-## Kata: Erstelle ein Konzept für die Barcamp-Dokumentation (SD)
+## Kata: Wie dokumentieren wir das Barcamp? (SD)
 
 Text, Audio, Video, Fotos, Etherpad, Google Doc
 
-## Kata: Erstelle ein Fund Raising Konzept (KHP)
+## Kata: Fund Raising - Money, Money, Money (KHP)
 
 Sponsorengewinnung
 
-## Kata: Erstelle ein Feelgood-/Atmospheren-Konzept (KHP, SD)
+## Kata: Ein Team für die Atmosphäre (KHP, SD)
 
 Klima, Stimmung, Energielevel, Abendevent, Community Lounge, Musik, Dekoration, Licht, Kunst
 
-# Keep Calm & Learn On! :-)
+Keep Calm & Learn On! :-)
 
 ... Standard-Kapitel ...
 
@@ -387,4 +401,4 @@ Checklisten ... ggf. Checkliste pro Rollen
 
 | Version | Bearbeitet von | Beschreibung Änderung | Datum |
 |---------|----------------|-----------------------|-------|
-| 0.1 | Simon Dückert | ... | dd.mm.yyyy |
+| 0.1 | Simon Dückert, Karlheinz Pape | ... | dd.mm.2019 |
