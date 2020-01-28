@@ -18,8 +18,8 @@ theme:
         accent: 'deep orange'
     language: de
 
-repo_name: 'cogneon/lernos-podcasting'
-repo_url: 'https://github.com/cogneon/lernos-podcasting'
+repo_name: 'cogneon/lernos-barcamp'
+repo_url: 'https://github.com/cogneon/lernos-barcamp'
 
 google_analytics:
   - 'UA-156969141-1'
