@@ -1,0 +1,861 @@
+
+
+
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="https://cogneon.github.io/2-0-Lernpfad/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="In Zwischenablage kopieren">
+      
+        <meta name="lang:clipboard.copied" content="In Zwischenablage kopiert">
+      
+        <meta name="lang:search.language" content="de">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Keine Suchergebnisse">
+      
+        <meta name="lang:search.result.one" content="1 Suchergebnis">
+      
+        <meta name="lang:search.result.other" content="# Suchergebnisse">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>Lernpfad - lernOS Barcamp Leitfaden</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ff7043">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-156969141-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="deep-orange" data-md-color-accent="deep-orange">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#barcamp-lernpfad" tabindex="1" class="md-skip">
+        Zum Inhalt
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://cogneon.github.io/" title="lernOS Barcamp Leitfaden" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              lernOS Barcamp Leitfaden
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Lernpfad
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Suchbegriff eingeben
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/cogneon/lernos-podcasting/" title="Quellcode" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    cogneon/lernos-podcasting
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://cogneon.github.io/" title="lernOS Barcamp Leitfaden" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    lernOS Barcamp Leitfaden
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/cogneon/lernos-podcasting/" title="Quellcode" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    cogneon/lernos-podcasting
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Über lernOS" class="md-nav__link">
+      Über lernOS
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../1-0-Grundlagen/" title="Grundlagen" class="md-nav__link">
+      Grundlagen
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Lernpfad
+      </label>
+    
+    <a href="./" title="Lernpfad" class="md-nav__link md-nav__link--active">
+      Lernpfad
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhaltsverzeichnis</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#organisatoren-checkliste" class="md-nav__link">
+    Organisatoren Checkliste
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-get-started-sd" class="md-nav__link">
+    Kata: Get started (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-besuche-ein-barcamp-und-studiere-barcamps-aus-der-ferne-khp" class="md-nav__link">
+    Kata: Besuche ein BarCamp und studiere Barcamps aus der Ferne (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-fulle-den-barcamp-canvas-aus-sd" class="md-nav__link">
+    Kata: Fülle den BarCamp Canvas aus (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-den-barcamp-steckbrief-khp" class="md-nav__link">
+    Kata: Erstelle den BarCamp-Steckbrief (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-fuhre-das-barcamp-orgateam-kick-off-durch-khp" class="md-nav__link">
+    Kata: Führe das BarCamp-OrgaTeam Kick-off durch (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-community-fahrplan-sd" class="md-nav__link">
+    Kata: Erstelle einen Community-Fahrplan (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-kommunikationsplan-khp-sd" class="md-nav__link">
+    Kata: Erstelle einen Kommunikationsplan (KHP, SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-flachennutzungsplan-khp" class="md-nav__link">
+    Kata: Erstelle einen Flächennutzungsplan (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-eine-webseite-fur-das-barcamp-sd" class="md-nav__link">
+    Kata: Erstelle eine Webseite für das Barcamp (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-baue-eine-community-plattform-auf-sd" class="md-nav__link">
+    Kata: Baue eine Community Plattform auf (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-drehbuch-fur-das-barcamp-khp" class="md-nav__link">
+    Kata: Erstelle einen Drehbuch für das Barcamp (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erlerne-die-richtige-haltung-fur-die-moderation-durch-lean-coffees-khp" class="md-nav__link">
+    Kata: Erlerne die richtige Haltung für die Moderation durch Lean Coffee's (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-ein-konzept-fur-die-barcamp-dokumentation-sd" class="md-nav__link">
+    Kata: Erstelle ein Konzept für die Barcamp-Dokumentation (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-ein-fund-raising-konzept-khp" class="md-nav__link">
+    Kata: Erstelle ein Fund Raising Konzept (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-ein-feelgood-atmospheren-konzept-khp-sd" class="md-nav__link">
+    Kata: Erstelle ein Feelgood-/Atmospheren-Konzept (KHP, SD)
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" class="md-nav__link md-nav__link--active">
+            Kommentare
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../3-0-Anhang/" title="Anhang" class="md-nav__link">
+      Anhang
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhaltsverzeichnis</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#organisatoren-checkliste" class="md-nav__link">
+    Organisatoren Checkliste
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-get-started-sd" class="md-nav__link">
+    Kata: Get started (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-besuche-ein-barcamp-und-studiere-barcamps-aus-der-ferne-khp" class="md-nav__link">
+    Kata: Besuche ein BarCamp und studiere Barcamps aus der Ferne (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-fulle-den-barcamp-canvas-aus-sd" class="md-nav__link">
+    Kata: Fülle den BarCamp Canvas aus (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-den-barcamp-steckbrief-khp" class="md-nav__link">
+    Kata: Erstelle den BarCamp-Steckbrief (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-fuhre-das-barcamp-orgateam-kick-off-durch-khp" class="md-nav__link">
+    Kata: Führe das BarCamp-OrgaTeam Kick-off durch (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-community-fahrplan-sd" class="md-nav__link">
+    Kata: Erstelle einen Community-Fahrplan (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-kommunikationsplan-khp-sd" class="md-nav__link">
+    Kata: Erstelle einen Kommunikationsplan (KHP, SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-flachennutzungsplan-khp" class="md-nav__link">
+    Kata: Erstelle einen Flächennutzungsplan (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-eine-webseite-fur-das-barcamp-sd" class="md-nav__link">
+    Kata: Erstelle eine Webseite für das Barcamp (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-baue-eine-community-plattform-auf-sd" class="md-nav__link">
+    Kata: Baue eine Community Plattform auf (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-einen-drehbuch-fur-das-barcamp-khp" class="md-nav__link">
+    Kata: Erstelle einen Drehbuch für das Barcamp (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erlerne-die-richtige-haltung-fur-die-moderation-durch-lean-coffees-khp" class="md-nav__link">
+    Kata: Erlerne die richtige Haltung für die Moderation durch Lean Coffee's (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-ein-konzept-fur-die-barcamp-dokumentation-sd" class="md-nav__link">
+    Kata: Erstelle ein Konzept für die Barcamp-Dokumentation (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-ein-fund-raising-konzept-khp" class="md-nav__link">
+    Kata: Erstelle ein Fund Raising Konzept (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kata-erstelle-ein-feelgood-atmospheren-konzept-khp-sd" class="md-nav__link">
+    Kata: Erstelle ein Feelgood-/Atmospheren-Konzept (KHP, SD)
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" class="md-nav__link md-nav__link--active">
+            Kommentare
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/cogneon/lernos-podcasting/edit/master/docs/2-0-Lernpfad.md" title="Seite editieren" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="barcamp-lernpfad">BarCamp Lernpfad</h1>
+<h2 id="organisatoren-checkliste">Organisatoren Checkliste</h2>
+<p>... für das Kick-off und den Regeltermin ...</p>
+<h2 id="kata-get-started-sd">Kata: Get started (SD)</h2>
+<p>Mache dich mit den Grundlagen des Podcastings über das Grundlagen-Kapitel sowie die weiterführenden Literatur- und Weblinks vertraut.</p>
+<h2 id="kata-besuche-ein-barcamp-und-studiere-barcamps-aus-der-ferne-khp">Kata: Besuche ein BarCamp und studiere Barcamps aus der Ferne (KHP)</h2>
+<p>Wie oben beschrieben, ist das besondere Klima ein wesentlicher Erfolgsfaktor für gelungene BarCamps. Diese andere Art des Miteinander-Umgehens muss erst hergestellt werden. Das setzt aber eine innere Haltung der Veranstalter voraus, die glaubwürdig bei den Teilgebenden ankommt. Dieses "Loslassen-Können", das "Zutrauen" und das "Vertrauen" lässt sich nicht vermitteln, das kann man sich nur selber erarbeiten. </p>
+<p>Ein möglicher Weg dahin ist, mehrere BarCamps persönlich zu erleben. Mehrere schon deshalb, weil nicht alle BarCamps "eine Seele" haben, bei denen das gute Klima gleich spürbar ist. Achte bei Deinen Besuchen darauf, wie die Kommunikation im Vorfeld des BarCamps läuft, wie Einführung morgens abläuft, was besonders betont wird, und wie die Teilgebenden darauf reagieren. </p>
+<p>Der "Aktivitätsgrad" der Teilgebenden eines BarCamps ist auch ein Indikator für die Qualität eines BarCamps. </p>
+<ul>
+<li>Wieviel Sessions sind im Verhältnis zur Zahl der Teilgebenden entstanden? </li>
+<li>Etwa wie viele der Teilgebenden haben sich in den Sessions mit Beiträgen beteiligt?</li>
+<li>Wie viele Berichte (Dokumentationen, Twitter, Blogs, Soziale Medien, Fotos, Videos, ...) haben die Teilgebenden erstellt?</li>
+<li>Wie hast Du das Klima empfunden? Wie war der Umgangston in den Sessions und danach?</li>
+<li>War die Zusammensetzung der Teilgebenden divers? Gab es geteamnügend verschiedene Sichtweisen?</li>
+<li>Hat das Selbstorganisationsprinzip uneingeschränkt gewirkt?</li>
+<li>Fasse Deine persönlichen Eindrücke von mindestens 3 BarCamps gegenüberstellend zusammen</li>
+<li>Was sollte bei Deinem BarCamp unbedingt besser laufen?</li>
+<li>Sprich über Deine Eindrücke mit mindestens einem BarCamp-Kenner. </li>
+</ul>
+<p>Vielleicht findest Du gut dokumentierte BarCamps, die Du auch aus der Ferne zusätzlich ein wenig auswerten kannst. </p>
+<h2 id="kata-fulle-den-barcamp-canvas-aus-sd">Kata: Fülle den BarCamp Canvas aus (SD)</h2>
+<p>... Beschreibungstext des Canvas ...</p>
+<p><img alt="lernOS Barcamp Canvas" src="../images/lernOS-Barcamp-Canvas-de-300dpi.png" /></p>
+<h2 id="kata-erstelle-den-barcamp-steckbrief-khp">Kata: Erstelle den BarCamp-Steckbrief (KHP)</h2>
+<p>Ein BarCamp ist eine Konferenz, nur anders gestaltet. Als Veranstalter hast Du die Verantwortung dafür, dass sich die Konferenz für die Teilgebenden gelohnt haben wird. Deshalb ist es wichtig, Dir und allen Beteiligten klar zu machen, was das BarCamp bewirken soll, in welchem Rahmen das abläuft, wen es ansprechen soll, wie es finanziert wird, usw. </p>
+<p>Gib dafür Antworten auf folgende Fragen:</p>
+<ul>
+<li>Langtitel / Kurztitel / Hashtag: Thema/Themen-BarCamp</li>
+<li>Motto oder Untertitel: </li>
+<li>Wer ist Veranstalter?</li>
+<li>Wen kann man dazu ansprechen?</li>
+<li>Termin und Ort:</li>
+<li>Ziel und Zweck des BarCamps:</li>
+<li>Zielgruppen:</li>
+<li>Ziel-Teilgebenden-Zahl:</li>
+<li>Argumente, warum es sich für Teilgebende lohnt mitzumachen:</li>
+<li>Ticket-Kosten</li>
+</ul>
+<h2 id="kata-fuhre-das-barcamp-orgateam-kick-off-durch-khp">Kata: Führe das BarCamp-OrgaTeam Kick-off durch (KHP)</h2>
+<p>Jede Konferenz will gut vorbereitet sein, auch eine Unkonferenz BarCamp. Bei BarCamps übernimmt das üblicherweise ein OrgaTeam. Suche dir vier bis sechs Monate vor dem geplanten BarCamp 3 bis 6 Personen, die die oben beschriebenen Rollen übernehmen wollen und lade sie zu einem ersten Treffen für das BarCamp-OrgaTeam ein. Das geht auch in einer Stunde online.</p>
+<p>So wie wir beim BarCamp davon ausgehen, dass die Teilgebenden den Tag gut und vernünftig gestalten gestalten werden, mit dem gleichen Zutrauen solltest du auch den OrgaTeam-Mitgliedern entgegengehen. Gehe davon aus, dass jeder im OrgaTeam seine Aufgaben selbständig und ohne weitere Abstimmung erledigen wird. (Übrigens: Jede Abstimmung im Team vervielfacht ja den Arbeitsaufwand.) "Handeln - nicht fragen, aber informieren" ist die Devise für alle im OrgaTeam.</p>
+<p>Deshalb ist es besonders wichtig, gleich zu Beginn mit allen im OrgaTeam ein gemeinsames Verständnis zu Absichten und Ablauf des BarCamps zu gewinnen. Verwende genügend Zeit darauf</p>
+<ul>
+<li>die BarCamp-Prinzipien zu besprechen</li>
+<li>Ziel und Zweck des BarCamps zu diskutieren</li>
+<li>über Zielgruppen und Teilgebenden-Zahlen zu sprechen</li>
+</ul>
+<p>Besprich den Aufgabenplan und bitte die OrgaTeam-Mitglieder, bis zum nächsten Treffen eine der oben beschriebenen Rollen (Checkliste) zu wählen. Vereinbare auch gleich regelmäßige Termine für die gegenseitige Information - am besten online mit jeweils maximal 45 Minuten, im Abstand von jeweils 2 bis 3 Wochen.</p>
+<h2 id="kata-erstelle-einen-community-fahrplan-sd">Kata: Erstelle einen Community-Fahrplan (SD)</h2>
+<p>Experten, Influencer, Hochschulen ... die wichtig für das Barcamp sind ...</p>
+<h2 id="kata-erstelle-einen-kommunikationsplan-khp-sd">Kata: Erstelle einen Kommunikationsplan (KHP, SD)</h2>
+<p>Marketing, PR. Wann willst du was an welche Zielgruppe kommunizieren</p>
+<h2 id="kata-erstelle-einen-flachennutzungsplan-khp">Kata: Erstelle einen Flächennutzungsplan (KHP)</h2>
+<p>(Plenum, Breakout-Räume, Ausstattung, Infrastruktur)</p>
+<p>Mindestens etwa 50 Teilgebende braucht ein BarCamp und ab 300 wird es ein wenig "unfamiliär". Entsprechend der Teilgebenden-Zahl benötigt man </p>
+<ul>
+<li>einen Plenumsraum (für alle Teilgebenden nur morgens und abends)</li>
+<li>separate Sessionräume (als Faustregel: 10 Sessionräume für 250 Teilgebende) (Anzahl Sessionräume = Teilgeber geteilt durch ca. 25)</li>
+<li>und eine Freifläche für alle Teilgebenden in den Pausen und ggf. für den Abendevent</li>
+</ul>
+<p>Bei großen Teilgebenden-Zahlen muss man rechtzeitig nach einer Location suchen, die diese Bedingungen erfüllt. Die Einrichtung der Räume ist nicht ganz unwichtig. In den Sessionräumen braucht es keine Tische, es geht mehr um den Austausch. Am besten ist ein Stuhlkreis ohne Anfang oder Ende. Damit wird sich der Sessiongeber mitten rein setzen, und es gibt nicht die unterschwellige Erwartung, der da vorn soll mich mal schlau machen. So ist Dialog auf gleicher Augenhöhe viel eher möglich. ein Flipchart oder eine 'Tafel sollte in jedem Fall im Sessionraum sein. Beamer braucht man auch, aber nicht in allen Sessionräumen. </p>
+<p>Im Plenumsraum braucht es auch keine Tische. Dafür - je nach Raumakustik - eine Lautsprecheranlage mit zwei Mikrofonen, eines zum Weiterreichen bei der Vorstellrunde. </p>
+<p>Außerdem sollte ein stabiles WLAN für die Teilgebendenzahl vorhanden oder einrichtbar sein</p>
+<p>Und die Freifläche muss ggf. auch Strom und Platz für Sponsoren-Stände hergeben. Dort sollten auch Kaffee und Kaltgetränke zur Selbstbedienung stehen. Und einige Stehtische regen die Kommunikation untereinander an. </p>
+<ul>
+<li>Suche für Dein BarCamp mehrere mögliche Locations aus, und erkundige dich nach den Bedingungen</li>
+<li>Falls Du einen Abendevent planst: Wenn möglich am gleichen Ort. Es braucht dort nur gutes Essen, Getränke und eine angenehme Atmosphäre (geeignete Beleuchtung, evt. Hintergrundmusik). Die Vernetzung der Teilgebenden steht im Vordergrund. Verzichte auf Live-Musik (die stört meist nur).</li>
+</ul>
+<h2 id="kata-erstelle-eine-webseite-fur-das-barcamp-sd">Kata: Erstelle eine Webseite für das Barcamp (SD)</h2>
+<p>Webseite + Anmeldeprozess</p>
+<h2 id="kata-baue-eine-community-plattform-auf-sd">Kata: Baue eine Community Plattform auf (SD)</h2>
+<h2 id="kata-erstelle-einen-drehbuch-fur-das-barcamp-khp">Kata: Erstelle einen Drehbuch für das Barcamp (KHP)</h2>
+<p>Nicht Sessionplan, sondern für die Orga, wann Aufbau, etc., Veranstaltungsmanagement</p>
+<p>Für jede Konferenz muss die Location hergerichtet werden. Bei BarCamps werden allerdings meist mehr Räume benötigt. Dioe Gestaltung der Räume prägt auch die Atmosphäre. Bei BarCamps wollen wir schnell auf gleicher Augenhöhe in den Austausch kommen. Dazu passen hierarchisch angeordnete Tische und Stühle nicht. Am besten ist die Stuhlanordnung im Kreis - ohne Anfang und Ende - und ohne Tische in den Sessionräumen. Im Plenum haben wir oft nicht die Wahl, wenn wir viele Menschen unterbringen wollen. </p>
+<p>Und zwischen den Sessions gibt es idealerweise immer 15 Minuten-Verteilpausen. Die soll man nutzen können bei einem Kaffee im Foyer, jedenfalls an einem zentralen Ort, möglichst mitten zwischen den Sessionräumen. Dort sollen auch die Sponsoren ihren Platz haben, damit Gespräche entstehen können. </p>
+<p>Das Catering muss auch noch Platz bekommen und ggf. auch noch der Abendevent mit vielleicht ein wenig gemütlich gestaltetem Raum. Auch ein Empfangs-Desk muss eingerichtet werden. Und eine Garderobe ebenfalls, möglichst mit Verschlußmöglichkeit fürs Gepäck.</p>
+<p>Das bedeutet Auf- und Abbau-Arbeit in der Location und Einweisung von Helfern:</p>
+<ul>
+<li>Am besten, sieh Dir die Location selber an und mache Fotos von den reservierten Flächen</li>
+<li>Erstelle einen Plan mit allen Plätzen für Kaffee-Tische oder -Ecken, fürs Catering, für die Sponsoren, für den Empfangs-Desk, für die Garderobe, ...</li>
+<li>Gib für jeden Raum an, wieviele Stühle dort im Kreis stehen sollen. Gib an, wo ggf. die Tische hingestellt werden sollen</li>
+<li>Gib an, ob ein Flipchart, Beamer oder eine Pinwand in die Sessionräume gestellt werden soll</li>
+<li>Ordere zwei mit Packpapier bespannte Pinwände mit Stecknadeln für die Sessionplanung im Plenum</li>
+<li>Prüfe ob Du am Vorabend aufbauen kannst</li>
+<li>Plane, wieviele Helfer für Auf- und Abbau nötig sind</li>
+<li>Plane die Zeit für Auf- und Abbau vor und nach dem Camp </li>
+<li>Weise die Helfer in ihre Aufgaben ein </li>
+<li>Begrüße die Sponsoren und weise ihnen die vorgesehenen Plätze zu</li>
+<li>Plane die Betreuerzahl während des Camps (Info-Desk, ggf. Kaffee-Ausschank, Bewachung Garderobe)</li>
+<li>Weise die Betreuer in ihre Aufgaben ein </li>
+</ul>
+<p>Während des Camps:</p>
+<ul>
+<li>Prüfe, ob Veranstalter oder Gastgeber begrüßen will (bei BarCamps nur ganz kurz) und plane die Zeit ein</li>
+<li>Suche jemanden, der den angepinnten Sessionplan in ein elektronisches Dokument überträgt</li>
+<li>Plane im Sessionplan Zeit für ein Gruppenfoto aller Teilgebenden ein. Organisiere dieses Foto mit dem Fotografen</li>
+<li>Wenn das Essen außerhalb stattfindet, sorge für klare Weg-Beschreibungen oder Führer</li>
+<li></li>
+</ul>
+<h2 id="kata-erlerne-die-richtige-haltung-fur-die-moderation-durch-lean-coffees-khp">Kata: Erlerne die richtige Haltung für die Moderation durch Lean Coffee's (KHP)</h2>
+<p>Lean Coffee durchführen, Parallen zum Moderationsskript aufzeigen und Moderationsskript erstellen</p>
+<p>Wie oben beschrieben, kommt es sehr auf die passende innere Haltung des OrgaTeams und insbesondere des Moderators an. Mit allem was die Teilgebenden von OrgaTeam und Moderator wahrnehmen, wird das Klima des Miteinander-Umgehens beim BarCamp geprägt. Dazu zählen die Vorab-Mails genauso, wie die Einstimmung auf dem Camp. </p>
+<p>Innere Haltung wird am wenigsten mit Worten transportiert. Irgendwie spüren Teilgebende, ob das "Gleiche-Augenhöhe-Prinzip" auch wirklich gelebt wird, ob sie Wertschätzung erleben und ob sie wirklich frei und eigenverantwortlich agieren dürfen. Nur wer das als Moderator verinnerlicht hat, kann das auf seine Weise authentisch ausstrahlen. Es gibt auch kein Lernprogramm für innere Haltung. An der muss jeder selber arbeiten - und das braucht Zeit, manchmal viel Zeit. </p>
+<p>Die eigene innere Haltung ist ja aus der Summe aller eigenen Erfahrungen auf der Basis der eigenen Werte entstanden. Wer gute Erfahrungen mit exakt geplantem Vorgehen gemacht hat, wird sich ein wenig schwer tun, genauso souverän in nicht planbaren Situationen zu erscheinen. (Bei BarCamps weiß man nie, was gleich passieren wird.) </p>
+<p>Du kannst Deine innere Haltung in ähnlichen Situationen testen und weiterentwickeln: </p>
+<ul>
+<li>Besuche BarCamps und beobachte den Moderator. Beantworte - nur für dich - diese Fragen:</li>
+<li>Spürst Du eine Wertschätzung der Teilgebenden?</li>
+<li>Empfindest Du ihn auf gleicher Augenhöhe sprechend?</li>
+<li>Hat er einen inhaltlichen Plan, oder darf hier auch etwas ganz anderes passieren?</li>
+<li>
+<p>Verspürst Du Lust Dich hier sehr offen mit anderen auseinanderzusetzen?</p>
+</li>
+<li>
+<p>Es gibt BarCamps, bei denen spürt man von Anfang an eine "Seele". Und es gibt welche, bei denen man das nicht so anregend spürt. Die ersten funktionieren besser, die anderen aber irgendwie dann auch. Schließlich sind es ja auch die anderen Teilgebenden, die das Klima mitbestimmen, insbesondere wenn die schon BarCamp-Erfahrung haben. Versuche Deine BarCamp-Erfahrungen schriftlich zu reflektieren, und mit anderen darüber zu sprechen.</p>
+</li>
+<li>Wage Dich an andere Selbstorganisations-Formate, als Teilgebender oder auch als Moderator:</li>
+<li>Mach ein <a href="https://t2informatik.de/wissen-kompakt/lean-coffee/">Learn Coffee</a> aus Deiner nächsten Besprechung</li>
+<li>Besuche ein <a href="https://de.wikipedia.org/wiki/Open_Space">OpenSpace</a> oder organisiere selber einen</li>
+<li>
+<p>...</p>
+</li>
+<li>
+<p>Erstelle ein Drehbuch mit allen Deinen Beiträgen, für die BarCamp-Eröffnung, die Einstimmung der Teilgebenden in das Format, die Einleitung der Vorstellrunde und für die Sessionplanung</p>
+</li>
+</ul>
+<h2 id="kata-erstelle-ein-konzept-fur-die-barcamp-dokumentation-sd">Kata: Erstelle ein Konzept für die Barcamp-Dokumentation (SD)</h2>
+<p>Text, Audio, Video, Fotos, Etherpad, Google Doc</p>
+<h2 id="kata-erstelle-ein-fund-raising-konzept-khp">Kata: Erstelle ein Fund Raising Konzept (KHP)</h2>
+<p>Die meisten BarCamps werden von Sponsoren finanziert. Die müssen etwas davon haben, wenn sie Geld dafür geben. Entweder ist das BarCamp-Thema eines, mit dem sie verbunden sein wollen, oder die Zielgruppe der Teilgebenden ist interessant für die Sponsoren. </p>
+<p>BarCamps dürfen nicht zu einer Werbeveranstaltung werden. Es ist aber legitim hier Kontakte zu knüpfen. Und das geht bei BarCamps besonders gut, weil hier jeder (auf gleicher Augenhöhe) mit den anderen im Gespräch sein kann. Damit werden Sponsoren-Mitarbeiter Teil der Community. Und das ist viel wertvoller, als unverbindliche Small-Talk-Gespräche auf anderen Konferenzen. </p>
+<p>Sponsoren dürfen natürlich zeigen, von welchem Unternehmen sie kommen. Empfehle ihnen aber, keine Werbung für ihre Produkte zu machen. Das will beim BarCamp keiner hören. Gib ihnen den Rat, ein oder zwei Sessions zu geben, etwa zu Erfarhungen, die sie bei der Einführung eines ihrer Produkte gemacht haben. Am besten noch mit der Frage am Ende: Was könnten wir beim nächsten Mal besser machen? Dann beschäftigen sich auch alle indirekt mit dem Produkt, aber viel mehr mit einer ähnlichen Situation, die viele Teilgebende auch kennen. Dabei können alle gemeinsam lernen. </p>
+<p>Bei unseren BarCamps stellen wir den Sponsoren frei, auch einen Stand aufzubauen, raten ihnen aber gleich davon ab. Besser ist es sich mit eigenen Sessions und in anderen Sessions als Experte zu beteiligen. Diesen Rat nehmen die meisten auch an. Damit ist es auch weniger aufwändig für die Sponsoren. </p>
+<p>Stelle die Sponsoren-Logos auf die Homepage und verlinke dort zu deren Seiten. Wenn Du Mails an die Teilgebenden sendest (vorher und nacher), dann bedanke Dich explizit bei den Sponsoren und setzte Links zu ihren Seiten. </p>
+<p>Manche BarCamps benennen die Sessionräume nach Sponsoren. Du kannst Dir auch weitere Vorteile für Deine Sponsoren ausdenken. Vielleicht fragst Du auch danach, da kommen oft gute Ideen. </p>
+<ul>
+<li>Erstelle ein Dokument, mit dem Du potentiellen Sponsoren für Dein BarCamp erklärst, warum es sich für sie lohnen wird, als Sponsor dabei zu sein. </li>
+<li>Definiere dabei auch, was sie von Dir erwarten können und was sie dafür leisten müssen. (Auch das Stellen der Räume, das Übernehmen des Caterings, das Übernehmen der Kosten des Abendevents könnten Sponsoring-Leistungen neben reiner Finanzierung sein.)</li>
+<li>Formuliere eine Einstimmung für Sponsoren, die Du 6 Wochen vor dem Camp versendest.</li>
+</ul>
+<h2 id="kata-erstelle-ein-feelgood-atmospheren-konzept-khp-sd">Kata: Erstelle ein Feelgood-/Atmospheren-Konzept (KHP, SD)</h2>
+<p>Klima, Stimmung, Energielevel, Abendevent, Community Lounge, Musik, Dekoration, Licht, Kunst</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+  <h2 id="__comments">Kommentare</h2>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://cogneon.github.io/2-0-Lernpfad/";
+      this.page.identifier =
+        "2-0-Lernpfad/";
+    };
+    (function() {
+      var d = document, s = d.createElement("script");
+      s.src = "//lernos.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../1-0-Grundlagen/" title="Grundlagen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Zurück
+                </span>
+                Grundlagen
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../3-0-Anhang/" title="Anhang" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Weiter
+                </span>
+                Anhang
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://twitter.com/lern_os" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.linkedin.com/showcase/lern-os" class="md-footer-social__link fa fa-linkedin"></a>
+    
+      <a href="https://github.com/cogneon" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      
+        
+        
+          
+          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../assets/javascripts/lunr/lunr.de.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
