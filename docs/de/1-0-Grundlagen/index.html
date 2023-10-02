@@ -1,0 +1,1878 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://cogneon.github.io/1-0-Grundlagen/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../2-0-Lernpfad/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.2">
+    
+    
+      
+        <title>Grundlagen - lernOS Barcamp Leitfaden</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d451bc0e.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a5377069.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.cogneon.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '5']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://analytics.cogneon.de/matomo.php?idsite=5&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="lernos" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#grundlagen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href=".." title="lernOS Barcamp Leitfaden" class="md-header__button md-logo" aria-label="lernOS Barcamp Leitfaden" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            lernOS Barcamp Leitfaden
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Grundlagen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cogneon/lernos-barcamp" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cogneon/lernos-barcamp
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="lernOS Barcamp Leitfaden" class="md-nav__button md-logo" aria-label="lernOS Barcamp Leitfaden" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/></svg>
+
+    </a>
+    lernOS Barcamp Leitfaden
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cogneon/lernos-barcamp" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cogneon/lernos-barcamp
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Über lernOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Grundlagen
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Grundlagen
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-geschichte-sd" class="md-nav__link">
+    BarCamp-Geschichte (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-dna-khp" class="md-nav__link">
+    BarCamp-DNA (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-organisation-khp" class="md-nav__link">
+    BarCamp-Organisation (KHP)
+  </a>
+  
+    <nav class="md-nav" aria-label="BarCamp-Organisation (KHP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialisierung-und-planung-woche-0-khp" class="md-nav__link">
+    Initialisierung und Planung (Woche 0) (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ausfuhrung-woche-1-11" class="md-nav__link">
+    Ausführung (Woche 1-11)
+  </a>
+  
+    <nav class="md-nav" aria-label="Ausführung (Woche 1-11)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sponsoring-khp" class="md-nav__link">
+    Sponsoring (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsort-khp" class="md-nav__link">
+    Veranstaltungsort (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsdesign-sd" class="md-nav__link">
+    Veranstaltungsdesign (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-infrastruktur-sd" class="md-nav__link">
+    IT-Infrastruktur (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsmarketing-khp" class="md-nav__link">
+    Veranstaltungsmarketing (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-management-sd" class="md-nav__link">
+    Community Management (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#catering-khp" class="md-nav__link">
+    Catering (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungslogistik-sd" class="md-nav__link">
+    Veranstaltungslogistik (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsdurchfuhrung-khp" class="md-nav__link">
+    Veranstaltungsdurchführung (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nachbereitung-sd" class="md-nav__link">
+    Nachbereitung (SD)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abschluss-woche-12-sd" class="md-nav__link">
+    Abschluss (Woche 12) (SD)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-rollen-sd" class="md-nav__link">
+    BarCamp-Rollen (SD)
+  </a>
+  
+    <nav class="md-nav" aria-label="BarCamp-Rollen (SD)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projektleiter-und-orga-team-khp" class="md-nav__link">
+    Projektleiter und Orga-Team (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstalter-khp" class="md-nav__link">
+    Veranstalter (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fundraiser-khp" class="md-nav__link">
+    Fundraiser (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lokaler-ansprechpartner-khp" class="md-nav__link">
+    Lokaler Ansprechpartner (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marketer-khp" class="md-nav__link">
+    Marketer (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-verantwortlicher-sd" class="md-nav__link">
+    IT-Verantwortlicher (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-manager-sd" class="md-nav__link">
+    Community Manager (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moderator-khp" class="md-nav__link">
+    Moderator (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session-planer-sd" class="md-nav__link">
+    Session-Planer (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#empfang-und-info-desk-khp" class="md-nav__link">
+    Empfang und Info-Desk (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gastebetreuer-sd" class="md-nav__link">
+    Gästebetreuer (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fotograf-sd" class="md-nav__link">
+    Fotograf (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videograf-khp" class="md-nav__link">
+    Videograf (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audiograf-sd" class="md-nav__link">
+    Audiograf (SD)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-infrastruktur-sd" class="md-nav__link">
+    BarCamp-Infrastruktur (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beispiele-von-internen-und-externen-barcamps-sd" class="md-nav__link">
+    Beispiele von internen und externen BarCamps (SD)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-0-Lernpfad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lernpfad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-0-Anhang/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anhang
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Download
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Download
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDF-Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.docx" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Word-Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HTML-Version
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.epub" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    E-Book (epub)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.mobi" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    E-Book (mobi)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Links
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Links
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://lernos.org" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    lernos.org
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://community.cogneon.de" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CONNECT Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://web.peerfinder.app" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peerfinder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-geschichte-sd" class="md-nav__link">
+    BarCamp-Geschichte (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-dna-khp" class="md-nav__link">
+    BarCamp-DNA (KHP)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-organisation-khp" class="md-nav__link">
+    BarCamp-Organisation (KHP)
+  </a>
+  
+    <nav class="md-nav" aria-label="BarCamp-Organisation (KHP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialisierung-und-planung-woche-0-khp" class="md-nav__link">
+    Initialisierung und Planung (Woche 0) (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ausfuhrung-woche-1-11" class="md-nav__link">
+    Ausführung (Woche 1-11)
+  </a>
+  
+    <nav class="md-nav" aria-label="Ausführung (Woche 1-11)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sponsoring-khp" class="md-nav__link">
+    Sponsoring (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsort-khp" class="md-nav__link">
+    Veranstaltungsort (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsdesign-sd" class="md-nav__link">
+    Veranstaltungsdesign (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-infrastruktur-sd" class="md-nav__link">
+    IT-Infrastruktur (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsmarketing-khp" class="md-nav__link">
+    Veranstaltungsmarketing (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-management-sd" class="md-nav__link">
+    Community Management (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#catering-khp" class="md-nav__link">
+    Catering (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungslogistik-sd" class="md-nav__link">
+    Veranstaltungslogistik (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstaltungsdurchfuhrung-khp" class="md-nav__link">
+    Veranstaltungsdurchführung (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nachbereitung-sd" class="md-nav__link">
+    Nachbereitung (SD)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abschluss-woche-12-sd" class="md-nav__link">
+    Abschluss (Woche 12) (SD)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-rollen-sd" class="md-nav__link">
+    BarCamp-Rollen (SD)
+  </a>
+  
+    <nav class="md-nav" aria-label="BarCamp-Rollen (SD)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projektleiter-und-orga-team-khp" class="md-nav__link">
+    Projektleiter und Orga-Team (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veranstalter-khp" class="md-nav__link">
+    Veranstalter (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fundraiser-khp" class="md-nav__link">
+    Fundraiser (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lokaler-ansprechpartner-khp" class="md-nav__link">
+    Lokaler Ansprechpartner (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#marketer-khp" class="md-nav__link">
+    Marketer (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-verantwortlicher-sd" class="md-nav__link">
+    IT-Verantwortlicher (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-manager-sd" class="md-nav__link">
+    Community Manager (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moderator-khp" class="md-nav__link">
+    Moderator (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session-planer-sd" class="md-nav__link">
+    Session-Planer (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#empfang-und-info-desk-khp" class="md-nav__link">
+    Empfang und Info-Desk (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gastebetreuer-sd" class="md-nav__link">
+    Gästebetreuer (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fotograf-sd" class="md-nav__link">
+    Fotograf (SD)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videograf-khp" class="md-nav__link">
+    Videograf (KHP)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audiograf-sd" class="md-nav__link">
+    Audiograf (SD)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#barcamp-infrastruktur-sd" class="md-nav__link">
+    BarCamp-Infrastruktur (SD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beispiele-von-internen-und-externen-barcamps-sd" class="md-nav__link">
+    Beispiele von internen und externen BarCamps (SD)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  <!--
+  Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Edit button -->
+
+<a
+  href="https://github.com/cogneon/lernos-barcamp/edit/master/docs/1-0-Grundlagen.md"
+  title="edit.link.title"
+  class="md-content__button md-icon"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+</a>
+
+
+<!--
+  Hack: check whether the content contains a h1 headline. If it
+  doesn't, the page title (or respectively site name) is used
+  as the main headline.
+-->
+
+
+<!-- Markdown content -->
+<p><strong>Offene Punkte:</strong></p>
+<ul>
+<li>Gendering</li>
+<li>Session-Formate</li>
+<li>Skalierbarkeit von No Thrills/DIY/Rebell without a Crew bis Deluxe ()</li>
+</ul>
+<h1 id="grundlagen">Grundlagen</h1>
+<h2 id="barcamp-geschichte-sd">BarCamp-Geschichte (SD)</h2>
+<p>Das erste <a href="https://en.wikipedia.org/wiki/BarCamp">BarCamp</a> fand vom 19.-21.08.2005 bei Socialtext in Palo Alto mit 200 Teilnehmern statt. Es wurde in unter einer Woche organisiert. Von dort aus hat sich das Barcamp-Format schnell weltweit verbreitet. Das erste BarCamp entstand als eine öffentliche Alternative zum <a href="https://en.wikipedia.org/wiki/Foo_Camp">Foo Camp</a>, einer jährlichen "invite-only" Unkonferenz des Verlegers Tim O'Reilly.</p>
+<p>Das erste Foo Camp fand im August 2003 mit ungefähr 200 Teilnehmern statt. Ausgangspunkt für die Veranstaltung war eine Witzelei zwischen Tim und Sara Winge (damals VP Corporate Communications), die auf einer der O'Reilly Konferenzen mit der "foo bar" eine offene Bar für die Freunde des Verlags (FOO = Friends Of O'Reilly) organisieren wollte. Da nach dem Platzen der Dotcom-Blase standen im Verlag viele Räume leer und die Idee des Foo Camps konnte -<a href="https://justinsomnia.org/2005/08/foo-camp">mit einer foo bar</a>- in die Tat umgesetzt werden.</p>
+<p>Der Socialtext-Gründer Ross Mayfield war Teilnehmer eines Foo Camps. Er und einige andere Teilnehmer wollten eine eigene Version eines Camps organisieren. In der IT-Fachsprache werden mit <a href="https://en.wikipedia.org/wiki/Foobar">Foobar</a> Platzhalter-Variablen bezeichnet. Durch den Austausch des "Foo" in "Foo Camp" durch das "Bar" entstand der Name "BarCamp".</p>
+<p>Das BarCamp Wien war im September 2006 eines der ersten BarCamps im deutschsprachigen Raum. Zu den ersten BarCamps in Deutschland gehört das <a href="http://barcampnuernberg.pbworks.com/w/page/13257771/FrontPage">Barcamp Nürnberg</a>, das vom 16.-17.12.2006 in den Räumen von Novell und dem Linux Business Campus stattfand. Zu den größten Barcamps weltweit gehört das BarCamp Myanmar, das 2013 mit über 6.400 Teilnehmern stattfand. Als übliche Größe für BarCamps hat sich aber eher 50-300 Teilnehmer herausgestellt.</p>
+<h2 id="barcamp-dna-khp">BarCamp-DNA (KHP)</h2>
+<p>BarCamps nennt man auch Unkonferenzen, weil hier so ziemlich alles anders ist, als bei einer klassischen Konferenz. Dort stellt der Veranstalter die Agenda zusammen, die er für die Zielgruppe für angemessen hält, und er wählt die Experten aus, die auftreten dürfen. </p>
+<p>Bei BarCamps wird dafür die Expertise des Plenums genutzt. An jedem Morgen werden alle Anwesenden im Plenum gebeten, Vorschläge für die heutige Agenda zu machen. Ein "Session-Vorschlag" kommt auch nur dann auf die Agenda, wenn es im Plenum ein Interesse dafür gibt. Die Rolle des Veranstalters beschränkt sich hier auf das Bereitstellen von "Session-Räumen", auf die zeitliche Gestaltung des Ablaufplanes und auf die BarCamp-Klima-prägende Einstimmung. Möglicherweise gibt er auch noch ein BarCamp-Thema vor, wie "Corporate Learning Camp", "EduCamp" oder "PMCamp", damit sich eine bestimmte Zielgruppe hier sammelt (sog. Themen-BarCamps). Das BarCamps auch ohne Thema funktionieren, zeigen die Stadt-BarCamps, wie BarCamp Hamburg, oder BarCamp Nürnberg. </p>
+<p>Eine aus Plenums-Vorschlägen zusammengesetzte Agenda - mit mehreren parallelen Sessions - entsteht sozusagen "selbstorganisiert" unter den Teilnehmenden, die wir bei BarCamps deshalb "Teilgebende" nennen. Selbstorganisation ist auch das tragende Prinzip für BarCamps: Auch der Session-Ablauf darf sehr unterschiedlich sein, den bestimmt der Sessiongeber mit den Teilgebenden seiner Session.  Und jeder Teilgebende wählt zu jeder Stunde neu, welche Session ihn jetzt am meisten interessiert. Wenn dann eine Session nicht so läuft wie er es sich vorstellte, dann hat er immer zwei Möglichkeiten: Versuchen, die Diskussion in die gewünschte Richtung zu bringen, oder auch die Session kommentarlos zu verlassen, wenn die anderen auf einem ganz anderen inhaltlichen Weg sind. </p>
+<p>Jeder Teilgebende entscheidet zudem immer selbst über seinen Engagement-Level: Er kann eine Session vorschlagen und gestalten, er kann in einer Session nur zuhören, oder er kann sich mit eigenen Beiträgen in Sessions einbringen. Auch hier gilt das Selbstorganisations-Prinzip. Das hat auch zur Folge, dass Teilgebende am Ende nicht wirklich unzufrieden sein können. Jeder kann sich ja gestaltend einbringen. Und wem etwas fehlt, der muss sich fragen, warum er es nicht angeregt hat. </p>
+<p>Für erfahrene Teilnehmer klassischer Konferenzen klingt das vielleicht wenig vorstellbar. Deshalb ist es notwendig zu Beginn oder auch im Vorfeld eines BarCamps ein paar Grundsätze für das Funktionieren solcher selbstorganisierter Unkonferenzen deutlich zu machen. Da schauen wir uns einfach die ungeschriebenen Kommunikationsregeln aus gut laufenden virtuellen Fachforen im Internet ab. Wenn es doch möglich ist, in virtuellen Fach-Communities z.T. jahrelang gemeinsam zu arbeiten – ohne sich jemals gesehen zu haben, ohne Auftrag von jemandem, also vollständig selbstorganisiert, dann brauchen wir nur schauen, welche Bedingungen das ermöglichen:</p>
+<ul>
+<li>
+<p><strong>Freiwilligkeit</strong> ist die eine Bedingung. Jeder kann entscheiden, ob und, wie weit er sich einbringt - und wann er sich wieder rauszieht</p>
+</li>
+<li>
+<p><strong>Jeder ist Experte</strong> – eben mit seiner Perspektive. Unterschiedlichkeit darf sein, ist sogar hilfreich. </p>
+</li>
+<li>
+<p><strong>Gleiche Augenhöhe</strong> – egal ob jemand Professor oder Schüler ist – es zählen nur die Beiträge.  </p>
+</li>
+</ul>
+<p>Genau das sind auch die Bedingungen für das Funktionieren von BarCamps. 
+Der schwierigste Punkt ist es wohl, die gleiche Augenhöhe in so einer Präsenzveranstaltung hinzubekommen.  Eine gute Möglichkeit ist es, die <strong>Anrede mit dem Vornamen</strong> einzuführen. Und dann ist man auch ganz dicht beim Du. Empfehle deshalb das BarCamp-Du, das am Abend des letzten BarCamp-Tages beendet ist, wenn Einzelne nichts anderes miteinander vereinbart haben.</p>
+<p><strong>Besondere Haltung als BarCamp-Veranstalter</strong></p>
+<p>Das wichtigste Erfolgskriterium eines BarCamps ist das besondere Klima, das alle Teilgebenden irgendwie spüren müssen. "Ich darf mich hier anders verhalten als sonst - und man achtet drauf, dass mir dabei nichts passiert", das muss bei den Teilgebenden glaubwürdig ankommen. Das kann man nicht ausdrücken, dass muss schon morgens beim BarCamp-Start authentisch erlebbar werden. Das hat mehr mit persönlicher Ausstrahlung zu tun, als mit den Worten, die man transportiert. Hier wirkt die innere Einstellung mehr als das Gesagte. </p>
+<p>"Ich habe keinen Zweifel daran, dass die Teilgebenden den Tag heute gut und sinnvoll gestalten werden". 
+Jeder Zweifel, jede auch nur gedachte Kritik an einem Session-Vorschlag, überträgt sich auf die Teilgebenden. Sie spüren sehr schnell, dass man es ihnen doch nicht so richtig zutraut, und sie beginnen zurückhaltender zu werden. Selbstorganisation entfaltet sich aber nur, wenn das Zutrauen da ist, und das Vertrauen, dass man hier auch seine eigenen Vorstellungen selbst verwirklichen darf. </p>
+<p>So eine innere Haltung ist in hierarchischen Gesellschaften und Organisationen noch sehr ungewöhnlich, und deshalb erst von wenigen eingeübt. Das geht auch nicht von heut auf morgen, das Loslassen ist gefordert - bei weiter voller Übernahme der Verantwortung.</p>
+<p>Grafik, Ablauf aus Teilnehmersicht, Erlebenskurve, Energie vor/nach Barcamp (Barcamp ist mehr als die x Tage)</p>
+<h2 id="barcamp-organisation-khp">BarCamp-Organisation (KHP)</h2>
+<p>WICHTIG: Skalierbarkeit aufzeigen von minimalem Aufwand (No Thrills, DIY) bis zur Deluxe-Variante, Schieberegler ...</p>
+<p>Als Veranstalter eines BarCamps hat man die gleichen Aufgaben, wie jeder andere Konferenz-Veranstalter auch - nur um Agenda und Referenten braucht man sich nicht zu kümmern. Die übrige Vorbereitungsarbeit ist vergleichbar. </p>
+<p>BarCamps (wie auch klassische Konferenzen) kann man aufwandsarm nur mit dem Nötigsten ausstatten, oder auch mit höherem Veranstalter-Aufwand komfortabel gestalten. Beide Varianten und alle Zwischenstufen sind nicht nur zulässig, sie sollten sogar je nach Ziel, Zielgruppe, Budget, ... bewusst gewählt werden. Unser Rat: BarCamps nicht zu perfekt durchplanen. Ein wenig Hemdsärmeligkeit ermutigt die Teilgebenden, sich mit Beiträgen einzubringen. </p>
+<p>Lass Dich nicht abschrecken, von der sehr ausführlichen Aufgabenliste, die wir hier beschreiben. Streiche die so zusammen, dass dein BarCamp gut genug läuft, gerade, wenn es Dein erstes ist!</p>
+<h3 id="initialisierung-und-planung-woche-0-khp">Initialisierung und Planung (Woche 0) (KHP)</h3>
+<p><strong>Projektleitung:</strong></p>
+<p>Eine Konferenz vorzubereiten ist immer ein Projekt. Einer muss den Hut des Projektleiters aufhaben, der anschiebt, koordiniert und den ganzen Ablauf im Blick hat. </p>
+<p><strong>Folgende Fragen sind zuerst zu beantworten:</strong></p>
+<ul>
+<li>Welchen Zweck, welches Ziel hat das BarCamp?</li>
+<li>Welche Zielgruppe, wieviele Teilgebende sind anzustreben?</li>
+<li>Wer (welche Organisation, Abteilung oder Person) ist der Veranstalter?</li>
+<li>Welche Stakeholder müssen zur Unterstützung gewonnen werden?</li>
+<li>Wann etwa soll das BarCamp stattfinden?</li>
+<li>Wo, in welcher Region soll das BarCamp stattfinden?</li>
+<li>Welche Kosten sind voraussichtlich aufzubringen?</li>
+<li>Wie soll das BarCamp finanziert werden?</li>
+<li>Wie sollen die Teilgebenden gewonnen werden?</li>
+<li>Wer könnte im OrgaTeam mitarbeiten?</li>
+<li>Wer könnte der Projektleiter sein?</li>
+</ul>
+<p>Fülle mit diesen Antworten den Projektsteckbrief aus, so weit es geht. (Kata Projektsteckbrief)</p>
+<p><strong>OrgaTeam:</strong></p>
+<p>Du kannst die ganze Vorbereitungsarbeit auch alleine machen. Es ist nicht nur entlastend, sondern auch in mehrfacher Hichsicht hilfreich, ein Organisations-Team zu bilden. Wer im OrgaTeam mitmacht, wirbt auch meist für "sein BarCamp". Mitglieder im OrgaTeam bringen zusätzliche Ideen ein. Das OrgaTeam unterstützt sich gegenseitig. </p>
+<ul>
+<li>Gewinne 3 bis 6 Personen, die im Orgateam mitmachen wollen. </li>
+<li>Vereinbare einen Termin für das OrgaTeam-Kickoff</li>
+<li>Führe das erste OrgaTeam-Treffen durch, siehe Kata "Führe das BarCamp-OrgaTeam Kick-off durch"</li>
+</ul>
+<h3 id="ausfuhrung-woche-1-11">Ausführung (Woche 1-11)</h3>
+<h4 id="sponsoring-khp">Sponsoring (KHP)</h4>
+<p>(Ideelle Sponsoren, Raumsponsoren, Geld, Sachsponsoren, Crowd-Funding)</p>
+<p>Die zu erwartenden Kosten für Dein BarCamp (Raumkosten, Catering, Personal, Abendevent, Marketing, ...) müssen ja bezahlt werden. Die Finanzierung über die Teilgebenden-Tickets wird nicht ausreichen, weil Du bei einem BarCamp möglichst keine oder nur geringe Gebühren nehmen solltest. Deshalb benötigst Du Sponsoren, die Dir das nötige Budget zur Verfügung stellen.</p>
+<p>Räume zu mieten ist meist teuer. Für das BarCamp benötigst Du ja immer mehrere Räume parallel und einen großen für den Start am Morgen und den Abschluss am Abend. Ein Raumsponsor würde Deine Finanzierung schon deutlich erleichtern. </p>
+<p>Du brauchst also Sponsoren, die Dir Geld, Sachleistungen oder Unterstützung zusagen. Die müssen nicht nur von der Idee Deines BarCamps überzeugt sein, sie müssen auch noch einen eigenen Vorteil davon haben. Suche Dir also Partner, die Dich unterstützen, weil sie z.B. den Kontakt zu Deiner Zielgruppe haben wollen, weil sie am Thema Deines BarCamps interessiert sind, oder weil sie in der Verbindung mit Deinem BarCamp einen Imagegewinn sehen. </p>
+<p>Das berechtigte Interesse von Sponsoren an möglichen neuen Kundenkontakten darf aber bei einem BarCamp nicht zur Kundenaquise genutzt werden! Sponsoren dürfen sich als ganz normale Teilgebende einordnen, bekommen aber sonst keine Vortrags-Rechte oder schon vorher zugesagte Sessionplätze. Das würde das Klima und den Selbstorganisations-Aspekt des BarCamps stören. Wie jeder andere Teilgebende auch, dürfen Sponsoren morgens Sessions vorschlagen, und in anderen Sessions als Teilgebende mitwirken. Sie werden auf diese Weise ein Teil der Community. Das ergibt viel intensivere Kontakte als man als Anbieter auf Messen oder anderen Kongressen jemals erreichen kann. </p>
+<p>Wenn Du dieses "Werbeverbot" in Sessions mit den Sponsoren geklärt hast, darfst Du ihnen aber anbieten einen Stand im Foyer aufzubauen, ein Banner aufzustellen oder Infos und Give-aways auszulegen. Und natürlich wirst Du ihr Logo auf die Homepage nehmen, die Sponsoren in Emails erwähnen und während des BarCamps an geeigneter Stelle kurz dankend vorstellen. Aber widersetze Dich auf jeden Fall den Anfragen nach Teilnehmer-Adressen. </p>
+<ul>
+<li>Erstelle eine Liste von möglichen Sponsoren / Unterstützern für Dein BarCamp</li>
+<li>Frage Dein Netzwerk nach Ideen und Kontakten zu möglichen Sponsoren</li>
+<li>Sieh Dir die Ticketpreise von anderen BarCamps an, und lege ggf. Deinen Ticketpreis fest</li>
+<li>Überlege welche Sachleistungen oder Dienstleistungen statt Geld für Dein BarCamp möglich sind</li>
+<li>Erstelle die "Sponsoreninfo" mit allem was Du Sponsoren anbieten kannst, und was Du dafür erwartest</li>
+<li>Sprich die möglichen Sponsoren direkt an</li>
+<li>Notiere Dir den jeweiligen Entscheidungsstand auf Deiner Sponsorenliste</li>
+</ul>
+<h4 id="veranstaltungsort-khp">Veranstaltungsort (KHP)</h4>
+<p>(Räume, WLAN, Plenum, Parken, Teilnehmerzahl etc., Veranstaltungsplanung vor Ort: Hilfskräfte)</p>
+<p><strong>BarCamp-Räume:</strong></p>
+<p>BarCamps erfordern meist andere Räume als klassische Konferenzen. Morgens und abends brauchst Du einen Raum für alle Teilgebenden. Dazwischen benötigst Du mehrere Sessionräume gleichzeitig. Ganz grob gerechnet, erfordern je 25 BarCamp-Teilgebende einen Sesssionraum, bei 100 Teilgebenden also 4. Die Sessionräume sollten möglichst akustisch getrennt voneinander sein. Schließlich sollen sich die Teilgebenden voll auf ihr Thema konzentrieren können.</p>
+<p>Weder der große Raum morgens und abends, noch die Sessionräume brauchen Tische. Es geht mehr um den Austausch, ums miteinander reden, nicht so sehr ums schreiben. Und zu diesem Austausch sollen die Räume einladen. Ein typischer Klassenraum lädt nicht zum Austausch ein. Da entsteht ganz unbewusst die Erwartung, der da vorn soll mich mal schlau machen. Um das aufzubrechen, richten wir unsere Sessionräume immer als Stuhlkreis ohne Anfang und Ende ein. Der Sessiongeber muss sich als irgendwo mittenrein setzen - und ist gleichberechtigter Gesprächspartner wie alle anderen auch. Im großen Raum für alle ist das weniger das Problem. Aber Tische wie im Klassenraum sind auch hier irgendwie hinderlich. </p>
+<p>Die Größe der Sessionräume ist nicht richtig planbar. Niemand kann ja vorhersehen, wie viele sich für eine Session entscheiden. Geh von mindestens 25 je Raum aus. Wenn es eng wird, werden sich die Teilgebenden schon etwas einfallen lassen. Auch hier kannst Du den Selbstorganisationsfähigkeiten der Teilgebenden vertrauen. </p>
+<p>Suche nicht die Vier-Sterne-Umgebung für Dein BarCamp! Eine ganz edle Umgebung schafft eher Distanz. Teilgebende werden zurückhaltender mit eigenen Beiträgen, weil die vielleicht nicht gut genug sein könnten. Gut geeignet für BarCamps sind normale Arbeitsräume, Akademien und Hochschulen. </p>
+<p><strong>Ausstattung der BarCamp-Räume</strong>:</p>
+<p>Ein Flipchart oder eine Tafel zur Visualisierung sollte drin stehen. Wenn Du in einigen Sessionräumen einen Beamer hast, ist das hilfreich für die, die etwas präsentieren wollen. Einen WLAN-Zugang solltest Du wenn möglich in allen Räumen bereitstellen.  </p>
+<p><strong>Platz für Sponsoren und Essen und Trinken - während des ganzen Tages:</strong></p>
+<p>Zu jeder Konferenz gehört es, für das leibliche Wohl zu sorgen. BarCamps dürfen ruhig ein wenig "hemdsärmelig" wirken, deshalb ist Selbstbedienung bei Getränken und Essen hier ganz normal. Sorge für eine genügend große Fläche, auf der sich alle Teilgebenden immer wieder nach den Sessions treffen und stärken können. Dort sollten auch die Sponsoren Stände, Banner oder Auslagen platzieren können. Die benötigen evt. auch Strom für Vorführungen am PC. </p>
+<p>Da diese Fläche hauptsächlich die Gespräche untereinander unterstützen soll, sind Stehtische eine gute Idee. Dort kann man seine Kaffeetasse abstellen und gut ins Gespräch kommen. </p>
+<p><strong>Raum für den Abendevent:</strong></p>
+<p>Falls Du einen Abendevent planst (bei zweitägigen BarCamps am besten zwischen den beiden Tagen), empfehlen wir den im gleichen Gebäude zu planen. Wenn der außerhalb stattfindet, schwindet die Teilgebendenzahl erfahrungsgemäß. Vielleicht lässt sich ja auch das Foyer mit ein wenig farbigem Licht zum Raum für den Abendevent umfunktionieren. In jedem Fall brauchst Du auch dort Platz für ein Essens-Buffet und Getränke. Je nach Art des Essens benötigst Du Tische mit Stühlen oder nur Stehtische.</p>
+<p><strong>Platz für die Registrierung der Teilgebenden:</strong></p>
+<p>Auch bei BarCamps will man keine anonymen Besucher. Deshalb brauchst Du eine Teilgebenden-Registrierung zu Beginn. Plane einen Platz möglichst in Sichtweite vom Eingang, an dem Du die Teilgebenden empfangen und registrieren kannst. Dort könnte auch ein Ansprechpartner für die Teilgebenden während der ganzen Zeit erreichbar sein. </p>
+<p><strong>Anfahrt, Parkmöglichkeiten:</strong></p>
+<p>Hinweise zur Anfahrt, ggf. zur Orientierung auf dem Gelände oder im Gebäude sind für die Teilgebenden ebenso hilfreich, wie Hinweise zu Parkmöglichkeiten in der Nähe. </p>
+<p><strong>Hilfskräfte beim Camp:</strong></p>
+<p>Nicht nur für die Registrierung morgens, auch sonst benötigst Du ein paar Helfer. Schon vor dem Camp muss der Aufbau, auch der Raum-Umbau (z.B. Stuhlkreis in den Session-Räumen) erledigt werden. Während des Camps müssen Kaffeetassen weggeräumt werden, ggf. Heißgetränke zubereitet werden, Kaltgetränke und Geschirr bereitgestellt werden. Und nach dem Camp muss alles wieder aufgeräumt werden. 2 bis 4 Helfer sind da üblicherweise nötig. </p>
+<ul>
+<li>Liste mögliche Veranstaltungsorte auf, die für Dein BarCamp in Frage kommen könnten.</li>
+<li>Nimm Kontakt auf zu den Betreibern auf, und kläre die nötigen Räume, Termine und Kosten.</li>
+<li>Entscheide Dich für eine Location, schau Dir die persönlich an und mache Fotos von Räumen und Freiflächen, die Du nutzen willst.</li>
+<li>Plane den Platz für Sponsoren, Essen, Getränke und für den Abendevent. Achte dabei auf die örtlichen Vorgaben zu Fluchtwegen. </li>
+<li>Erkundige Dich, ob es ein genügend starkes WLAN für Deine Teilgebendenzahl gibt, und welche Zugangsvoraussetzungen zu erfüllen sind.</li>
+<li>Frage nach einem Anfahrtsplan und nach Parkmöglichkeiten</li>
+<li>Nimm die Adressdaten des Ansprechpartners vor Ort auf, und vereinbare die Aufgaben, die er übernehmen wird.</li>
+<li>Erkundige Dich nach einer Anlieferadresse für Material, dass vorher schon angeliefert werden soll.</li>
+<li>Erkundige Dich nach einem technischen Ansprechpartner, den man im Störungsfalle rufen kann, z.B. weil das WLAN ausfällt, oder der Lastenfahrstuhl fürs Catering nicht mehr fährt. </li>
+<li>Plane die Kosten für die Hilfskräfte ein, und erkundige Dich, wo Du die herbekommen kannst.</li>
+</ul>
+<h4 id="veranstaltungsdesign-sd">Veranstaltungsdesign (SD)</h4>
+<p>Drehbuch, Moderation, Musik, Licht, Abendveranstaltung etc., User Journey durch den Tag, Teilgebenden-Registrierung, Eröffnung im Plenum: Einstimmung, BarCamp-Erklärung, Vorstellungsrunde oder Begrüßungsritual, Sessionplanung, Zeitplan / Sessiondauer, Session-Dokumentation, Kommunikation während dem Camp, Tagesabschluß / BarCamp-Abschluß, (Welcome Talk) etc., Nachbereitung, Varianten</p>
+<h4 id="it-infrastruktur-sd">IT-Infrastruktur (SD)</h4>
+<p>Webseite, Community Plattform (inkl. Dokumentation), Anmeldung/Ticketing, Webseite pflegen, Austausch-Plattform für die BarCamp Community bereitstellen und pflegen, Session-Dokumentation vorbereiten und bereitstellen</p>
+<h4 id="veranstaltungsmarketing-khp">Veranstaltungsmarketing (KHP)</h4>
+<p>Auf den ersten Blick sieht die Kommunikation für ein BarCamp nicht viel anders aus, als für jede andere Konferenz auch. Da man bei einem BarCamp aber nicht mit der Agenda und den vortragenden Experten werben kann, fehlen die sonst üblichen Argumente für die Teilnahme. Bei einem Themen-BarCamp (z.B. "Corporate Learning Camp") gibt es nur die Überschrift, die Teilgebende anziehen könnte. </p>
+<p>Deshalb macht es Sinn im Vorfeld schon Session-Vorschläge öffentlich sichtbar zu sammeln (Agenda-Ersatz), und die Liste der angemeldeten Teilgebenden ebenfalls öffentlich zu führen. Damit entstehen inhaltliche Argumente und sicher auch die Lust, bestimmte Experten zu treffen. Das Liefern dieser Argumente ist nicht ganz unwichtig, insbesondere, wenn Mitarbeiter ihren Chef überzeugen müssen, dass es sich lohnt, bei diesem BarCamp mitzumachen. </p>
+<p>Hilfreich ist auch ein zusätzliches Motto Deines Themen-BarCamps (z.B. "Lernen braucht Netzwerke!" fürs Corporate Learning Camp). Auch damit sprichst Du bestimmte Interessenten an. </p>
+<p>Du hast Dir ja eine bestimmte Zielgruppe für Dein BarCamp vorgestellt. Sorge dafür, dass die hauptsächlich von Deinem BarCamp erfährt und drüber redet. Sprich aus dieser Zielgruppe interessante Experten persönlich an, und gewinne sie für das BarCamp. Das zieht dann auch andere an. Übrigens: die Qualität eines BarCamps hängt immer von den Teilgebenden ab! Du siehst, wie wichtig es ist, die richtigen Experten fürs Mitmachen zu gewinnen.</p>
+<p>Soziale Medien sind heute der Hauptkanal für die Gewinnung von Teilgebenden für BarCamps. Nutze die in den Netzwerken Deiner Zielgruppen intensiv. Nur dort kannst Du auf virale Effekte hoffen, die Dir die Werbung erleichtern. Sollte Deine Zielgruppe dort aber noch nicht unterwegs sein, geht die Werbung auch ganz konventionell, wie bei anderen Konferenzen auch. </p>
+<p>Übrigens auch bei voll ausgebuchten BarCamps ist das Marketing wichtig. Auch wenn man nicht mehr teilgeben kann, darf man aufs Camp aufmerksam werden. Das erzeugt neue Interessenten für Dein nächstes BarCamp. Und vielleicht gewinnst Du ja noch den einen oder anderen höchstinteressanten Experten (den Du dann natürlich noch als Teilgebenden zulassen wirst).</p>
+<p>Gut wäre es in den meisten Fällen auch, wenn klassische Medien über Dein BarCamp berichten. Presse-Mitteilungen sind dafür hilfreich, wirken aber leider sehr selten. </p>
+<p>Auch während des BarCamps kannst Du Aufmerksamkeit erzeugen, wenn Du die Teilgebenden motivierst über Twitter oder andere soziale Medien vom Camp zu berichten. </p>
+<ul>
+<li>
+<p>Erstelle eine Liste mit Netzwerken, in denen Deine Zielgruppen sich austauschen</p>
+</li>
+<li>
+<p>Erstelle eine Liste mit 3 bis 5 Experten zum BarCamp-Thema, die Du gern dabei hättest</p>
+</li>
+<li>
+<p>Formuliere einige Argumente, warum es sich lohnt, bei Deinem BarCamp mitzumachen</p>
+</li>
+<li>
+<p>Erstelle ein Logo, mit dem Du in den verschiedenen sozialen Medien auf Dein BarCamp aufmerksam machen kannst. (Die "BarCamp-Flamme" ist eine gute Grundlage.)</p>
+</li>
+<li>
+<p>Plane, wie oft und ein welchen Abständen Du etwas über Dein BarCamp in sozialen Medien berichten willst - und wann Du damit anfängst. </p>
+</li>
+<li>
+<p>Starte mit Einen ersten Posts</p>
+</li>
+<li>
+<p>Baue den Kontakt zu den gewünschten Experten auf, damit Du sie fürs Camp gewinnen kannst</p>
+</li>
+<li>
+<p>Leg den Twitter-Hashtag für Dein BarCamp fest und veröffentlich ihn auf der Homepage</p>
+</li>
+</ul>
+<h4 id="community-management-sd">Community Management (SD)</h4>
+<p>Teilnehmer, Experten reinziehen, Kommunikation vor dem Camp, Im Vorfeld Lust aufs Corporate Learning Camp machen, interessante Experten für Mitmachen gewinnen, evt. Presse einladen, nach dem Camp Berichte und Ergebnisse sammeln und veröffentlichen</p>
+<h4 id="catering-khp">Catering (KHP)</h4>
+<p>(Essen, Getränke)</p>
+<p>Kaffee, Tee, Kaltgetränke und mindestens ein Mittagessen, das sind Grundvoraussetzungen für jede Ganztags-Konferenz, auch für ein BarCamp. Es geht eigentlich um das Erfüllen ganz normaler Bedürfnisse, dem Stillen von Hunger und Durst. Das kannst Du ganz einfach und kostengünstig lösen, oder auch edel und genussvoll - je nach Budget. Nur weglassen solltest Du die Verpflegung nicht. </p>
+<p>Zu BarCamps passen einfache Varianten immer: Teilgebende bedienen sich selbst, Wasser aus Literflaschen, Säfte aus Saftboxen, Kaffee und Tee aus bereitgestellten Kannen. Das erspart das Bedienungspersonal, und ist kostengünstig. Ein Buffet zum Mittag kann ebenfalls einfach ausfallen. Wenn es Dein Budget zulässt, kannst Du hier zulegen und evt. auch für Gebäck am Vormittag und Nachmittag sorgen. Sorge nur dafür, dass Essen und Trinken immer auch zur Kommunikation untereinander einlädt. BarCamps haben immer zwei Ziele, den fachlichen Austausch und den Auf- oder Ausbau des eigenen Netzwerkes. </p>
+<p>Noch eines scheint uns wichtig: Auch wenn es sehr günstig ist, Einweg-Geschirr und Einweg-Becher zu verwenden, aus Umweltgründen geht das gar nicht. Als Veranstalter setzt man immer auch ein wenig den Standard, und da sollten wir Vorbild sein. </p>
+<p>Den Abendevent solltest Du ausschließlich als Rahmen für viele Gespräche der Teilgebenden untereinander anlegen. Du musst die Teilgebenden nicht mit einem Programm unterhalten - das wäre sogar kontraproduktiv. Gutes Essen, guter Wein und Bier ist eine sehr schöner Rahmen für viele nette Gespräche. Sorge deshalb beim Abendevent für das beste Essen des Tages. </p>
+<ul>
+<li>
+<p>Plane Dein Budget für Getränke und Essen (irgendwo zwischen 30 und 60 € je Teilgebender und Tag)</p>
+</li>
+<li>
+<p>Hole dir Angebote für die Lieferung von Essen ein - mindestens einer vegetarischen Variante</p>
+</li>
+<li>
+<p>Plane den Kauf von Wasser, Säften und Heißgetränken und deren Bereitstellung</p>
+</li>
+<li>
+<p>Hole Dir Angebote für Leih-Geschirr, Mehrwegbecher oder Pfandbecher</p>
+</li>
+<li>
+<p>Entscheide Dich für eine Variante für Dein BarCamp</p>
+</li>
+<li>
+<p>Plane ggf. Helfer während des Camps für Getränke- und Essensbereitstellung ein</p>
+</li>
+</ul>
+<h4 id="veranstaltungslogistik-sd">Veranstaltungslogistik (SD)</h4>
+<p>Ausdrucke, Bestellisten, Poster, Anlieferadresse, Sponsorenplätze, Steckdosen</p>
+<h4 id="veranstaltungsdurchfuhrung-khp">Veranstaltungsdurchführung (KHP)</h4>
+<p><strong>Aufbau vor Ort</strong>:</p>
+<p>Vor Ort muss vor dem BarCamp ja Einiges eingerichtet werden: Tische für die Teilnehmer-Registrierung, Bereitstellen von Teilgebenden-Unterlagen, eine Garderobe, Strom und Tische für Sponsoren, Beschilderung im Gelände / Gebäude, Umräumen der Session-Räume mit Stuhlkreisen ohne Anfang und Ende, FlipCharts in Session-Räumen verteilen, Vorbereiten von Pinwänden für die Sessionplanung, Tische bereitstellen fürs Getränke und Essen, Stehtische für die Teilgebenden aufstellen, Besucher, Geschirr bereitstellen, Getränke aufstellen, Mülltüten aufstellen, ... </p>
+<p>Am besten machst Du das am Vorabend - wenn Du da schon in die Räume kommst. Je nach Größe Deines BarCamps brauchst Du dafür 2 bis 4 Helfer - insbesondere, wenn Du erst am Morgen in die Räume kommst! </p>
+<ul>
+<li>Mach Dir einen Plan, was alles vor Ort vorzubereiten ist</li>
+<li>Zeichne einen Plan, was wo hinkommen soll</li>
+<li>Überlege Dir eine verständliche Einstimmung für die Helfer</li>
+<li>Fotografiere die Räume vor der Umstellung, damit Du am Ende weißt, wie die wieder verlassen werden müssen</li>
+</ul>
+<p><strong>Durchführung des BarCamps:</strong></p>
+<p><strong>Registrierung:</strong></p>
+<p>Die Registrierung der Teilgebenden wird gerade bei großen Teilgebenden-Zahlen oft unterschätzt. Das braucht meist mehr Zeit als gedacht, insbesondere weil ja die Teilgebenden nicht gleichmäßig verteilt kommen. Bei einem BarCamp ist die Pünktlichkeit des Ablaufs aber ein Erfolgs-Kriterium. Es ist also wichtig,  schon den Beginn pünktlich zu starten. Der BarCamp-Start sollte auch gemeinsam mit allen stattfinden. Die Einstimmung, das Vorstell-Ritual und die Sessionplanung bilden ja die gemeinsame Basis für das selbstorganisierte Vorgehen am weiteren Tag. </p>
+<ul>
+<li>Lade die Teilgebenden so rechtzeitig ein, dass sie mindestens eine halbe Stunde vor Beginn da sind</li>
+<li>Eröffne die Teilgebenden-Registrierung mindestens 1 Stunde vor dem Beginn des BarCamps</li>
+<li>Bereite die Unterlagen für die Teilgebenden so vor, dass ein Griff genügt:</li>
+<li>Je 2 leere Session-Vorschläge (DIN A4)</li>
+<li>Ein Sessionplan mit Zeiten und Raum-Namen, leer</li>
+<li>WLAN-Zugangsdaten, Twitter-Hashtag</li>
+<li>Namensschild (zum Selbstausfüllen)</li>
+<li>Suche Dir ein bis zwei Helfer, die auf der vorbereiteten Anwesenheitsliste die ankommenden registrieren</li>
+</ul>
+<p><strong>Einstimmung, Vorstell-Ritual, Sessionplanung:</strong></p>
+<p>Der <strong>Start-Block "Einstimmung</strong>, Vorstellung und Sessionplanung" ist entscheidend dafür, ob Dein BarCamp eine Seele hat oder nicht! Hier prägst Du die Art des Miteinander-Umgehens bis zum Ende Deines BarCamps. Die Teilgebenden müssen spüren, dass sie hier anders sein dürfen als sonst - und dass man darauf achtet, dass ihnen dabei nichts passiert. Das hat mehr mit authentischer Ausstrahlung zu tun, als mit den Worten, die gesagt werden. Dabei muss das unbedingte Vertrauen spürbar werden, dass die Teilgebenden diesen Tag auf jeden Fall gut und vernünftig gestalten werden. </p>
+<p>Gib in der Einstimmung eine kurze Erklärung zum BarCamp, zum Tagesablauf und zu den 3 Kernpunkten</p>
+<ul>
+<li><strong>Freiwilligkeit</strong> </li>
+<li><strong>Jeder ist Experte</strong> </li>
+<li><strong>Gleiche Augenhöhe</strong> </li>
+</ul>
+<p>wie oben beschrieben. Führe das BarCamp-Du ein, und begrenze das bis zur konkreten Schlusszeit des letzten BarCamp-Tages. Danach gilt automatisch wieder der Normalzustand in der Anrede! Das ist wichtig, damit sich nach dem BarCamp nicht jeder fragt, ob man jetzt beim Du ist oder nicht. </p>
+<p>Nach Deiner erklärenden Einstimmung soll beim <strong>Vorstell-Ritual</strong> einerseits jeder schon mal die Gelegenheit bekommen, vor allen etwas zu sagen, und andererseits soll die Vielfalt der Expertise hier aufleuchten. Deshalb gibt es bei BarCamps die schöne Aufforderung: </p>
+<p>"Steh bitte auf, sage Deinen Namen und die Organisation von der Du kommst, und dann in maximal 2 (oder 3) Stichworten, was Dir heute durch den Kopf geht". Mach es am besten als erster vor, und achte darauf, dass wirklich nur Stichworte kommen. 
+Dieses Vorstell-Ritual ist auch deshalb wichtig, weil danach die Bereitschaft steigt, sich mit einem Session-Vorschlag nach vorn zu trauen. Man kennt jetzt ja schon ein wenig die anderen, und man hat ja schon mal in der großen Runde gesprochen. Also achte darauf, dass es kurz bleibt, aber lass es nicht weg!</p>
+<p>Gleich danach folgt die <strong>Sessionplanung</strong>. Bitte alle nach vorn, die einen Session-Vorschlag machen wollen. Warte ein wenig, bis sich genügend vorn aufgereiht haben. Desto länger die Schlange, umso eher trauen sich auch weitere einen Session-Vorschlag abzugeben. Dann fordere nacheinander auf, den Vorschlag in maximal 3 Sätzen vor dem Plenum zu beschreiben. Schließlich will man wissen, <u>mit wem</u> man <u>welches Thema</u> diskutieren könnte. Du kannst nach jedem Vorschlag das Plenum fragen, wer ein Interesse an diesem Thema hat. Wenn nur ein oder zwei Hände hochgehen, kannst Du entscheiden, dass es gar nicht erst auf die Agenda kommt. </p>
+<p>Die Session-Vorschläge sollten von den Vorschlagenden auf den schon beim Empfang ausgeteilten A4-Blättern eingetragen sein. Damit gehen sie dann nach der Vorstellung an die vorbereitete Session-Tafel. dort sollte ein Helfer stehen, der die Sessions einem Raum und einer Zeit zuordnet. Faustregel dafür: Räume immer erst von oben nach unten füllen, und ähnliche Themen zu verschiedenen Zeiten anbieten. Die Entscheidung was wo auf der Agenda steht, fällt nur dieser Helfer! Lass Dich nicht auf Umstellungs-Diskussionen aus dem Plenum ein - Du wirst es nie allen recht machen. </p>
+<p>Diesen papiernen Sessionplan kannst Du anschließend abtippen lassen um ihn im Netz allen zur Verfügung zu stellen. Bei großen BarCamps macht es Sinn, am Ende der Sessionplanung die ersten Sessions mit ihren Raumzuordnungen im Plenum laut vorzulesen. Sonst müssen alle gleichzeitig vorn am Sessionboard ablesen, wo sie jetzt hingehen wollen. </p>
+<p>Wenn nicht schon geschehen, sag an der Stelle noch etwas über den Zeitplan und die strenge Einhaltung. Bei unseren BarCamps sind die Sessions 45 Minuten lang, dann folgen 15 Minuten "Verteilpause", die aber viel mehr als Vernetzungspause gedacht ist. Wir achten deshalb sehr streng auf die Einhaltung der 45 Minuten (das sind keine 47 Minuten!). </p>
+<p>Sag noch etwas zur evt. gewünschten Dokumentation in den Sessions. Und bitte alle abends zur geplanten Zeit wieder hier im Plenum zum Tagesabschluss zusammenzukommen. Ab jetzt bist Du bis zum Tagesabschluss ganz normaler Teilgebender. Auch Du darfst Sessions geben und in Sessions gehen. </p>
+<ul>
+<li>
+<p>Schreibe Dir ein Drehbuch für die Einstimmung, Einleitung des Vorstell-Rituals und die Sessionplanung</p>
+</li>
+<li>
+<p>Plane, wie und wann Du den Sponsoren und dem OrgaTeam gebührend danken willst</p>
+</li>
+<li>
+<p>Beschrifte Deinen leeren Sessionplan auf den Pinwänden für die Sessionplanung im Plenum</p>
+</li>
+<li>
+<p>Teste die Lautsprecher-Anlage im Plenum rechtzeitig, halte eine Handmikro zum Durchreichen bereit</p>
+</li>
+<li>
+<p>Lege dicke Stifte aus zum Beschriften der Session-Vorschlags-Blätter</p>
+</li>
+<li>
+<p>Lege Dir Deine eigene Vorstellung mit Deinen zwei Stichworten zurecht</p>
+</li>
+<li>
+<p>Notiere Dir, was Du zur Dokumentation der Sessions sagen willst</p>
+</li>
+<li>
+<p>Kläre, wer Dir beim Zuordnen der Session-Vorschläge helfen wird</p>
+</li>
+<li>
+<p>Kläre, wer mit welchem Gerät den Sessionplan auf den PC überträgt</p>
+</li>
+</ul>
+<p><strong>Tagesabschluss:</strong></p>
+<p>Mindestens 20 Minuten, normalerweise 30 solltest Du einplanen, um den offiziellen Teil des Tages mit allen gemeinsam abzuschließen. Wenn nicht schon vorher geschehen, solltest Du spätestens jetzt die Sponsoren ehren und evt. einzeln kurz auftreten lassen. Wieder nur 2 Sätze zum eigenen Angebot und warum sie dieses BarCamp unterstützen. </p>
+<p>Die Teilgebenden kannst Du fragen, was heute gut war, und dann, was man besser mache könnte. Auf die letzte Frage kannst Du am Ende meist antworten: Dann nehmt Euch vor, es beim nächsten Mal besser zu machen - es war Eure Veranstaltung! </p>
+<p>Den Tagesabschluss empfehlen wir wirklich an jedem Tag, auch wenn ein weiterer BarCamp-Tag folgt. Bei BarCamps formt sich so etwas wie eine Community. Communities brauchen gemeinsame Treffen. </p>
+<ul>
+<li>Notiere Deine Fragen zum Tagesabschluss an die Teilgebenden</li>
+<li>Notiere Dir, mit welchen Worten / Hinweisen Du den Tagesabschluss beenden willst</li>
+<li>Bitte jemanden die Aussagen der Teilgebenden mitzuschreiben. Das sind oft gute Argumente für dein nächstes Barcamp.</li>
+</ul>
+<p><strong>Abendevent:</strong></p>
+<p>So ein Community-Treffen ist auch der Abendevent. Bei zweitägigen BarCamps, zwischen den beiden Tagen, sonst evt. als Vorabend-Event. Zweck des Abendevents ist Aufbau und Vertiefung des Netzwerkes der Teilgebenden. Schaffe also einen Rahmen, der dies erleichtert und anregt. Gutes Essen, Wein und Bier gehören ebenso dazu, wie ein wenig Hintergrund-Musik und - wenn möglich atmosphärische Beleuchtung. </p>
+<p>Aus Erfahrung raten wir ab von Live-Musik oder anderen Attraktionen. Die stören eher die selbstgesteuerte Gesprächsatmosphäre. Insbesondere wenn das BarCamp am Tag schon lief, sind die Teilgebenden meist schon in guter Stimmung und haben viel Gesprächsbedarf untereinander. </p>
+<ul>
+<li>
+<p>Gib konkrete Zeiten für den Abendevent an (Anfang und Ende)</p>
+</li>
+<li>
+<p>Gestalte die Atmosphäre für den Abendevent (Licht, Stehtische, Sitzgelegenheiten, Hintergrund-Musik, gutes Essen, Getränke)</p>
+</li>
+<li>
+<p>Kläre die Schließzeiten des Gebäudes und richte die Abbau-Zeit für den Abendevent darauf ein</p>
+</li>
+<li>
+<p>Werbe vorher dafür, dass sich Teilgebende an dem Abend nichts anderes vornehmen</p>
+</li>
+</ul>
+<p><strong>Abbau nach dem BarCamp:</strong></p>
+<p>Wenn du die Location wieder aufgeräumt übergeben musst, brauchst Du wieder 2 bis 4 Helfer, die wieder alles so herrichten, wie es vorher war. Dazu gehört auch das Abräumen von übriggebliebenem Material, Kaffeebechern, Markierungen, Bannern, usw. </p>
+<p>Sorge vorher für genügend Müll-Behälter. Da bleibt immer was übrig, oft auch vom Essen. Und plane 2 bis 4 Stunden nach dem Camp dafür ein. </p>
+<ul>
+<li>Beschaffe genügend Müll-Gefäße, und erkundige Dich, wohin damit</li>
+<li>Verpflichte 2 bis 4 Helfer für den Abbau</li>
+<li>Erkundige Dich, wie die Übergabe der Räume stattfinden soll</li>
+</ul>
+<h4 id="nachbereitung-sd">Nachbereitung (SD)</h4>
+<p>Kommunikation nach dem Camp, Sponsorendank, Fotos, Video, Audiograf bereitstellen etc.</p>
+<h3 id="abschluss-woche-12-sd">Abschluss (Woche 12) (SD)</h3>
+<ul>
+<li>Retro</li>
+</ul>
+<h2 id="barcamp-rollen-sd">BarCamp-Rollen (SD)</h2>
+<p>Laß Dich nicht abschrecken von so vielen Rollen für die Organisation eines BarCamps. Eigentlich reichen 3 bis 4 Personen, die ein BarCamp vorbereiten und verantwortlich durchführen. Bei kleinen BarCamps kannst Du auch alle Rollen ganz allein ausfüllen. Die hier aufgeführten Rollen sollen nur deutlich machen, welche unterschiedlichen Aufgaben-Erwartungen bei der BarCamp-Organisation erfüllt werden müssen.</p>
+<h3 id="projektleiter-und-orga-team-khp">Projektleiter und Orga-Team (KHP)</h3>
+<p>Ein BarCamp ist ein Projekt mit Anfang und Ende.  Dafür benötigt man eine Person, die das ganze Projekt im Blick hat und die anstehenden Aufgaben koordiniert, und wo nötig Entscheidungen trifft.  </p>
+<p>Im OrgaTeam sind idealerweise Menschen mit verschiedenen Kompetenzen versammelt, die sich eine, oder in der Regel mehrere, der unten beschriebenen Rollen selber aussuchen, und selbständig ausführen. </p>
+<p>Aufgaben Projektleiter: </p>
+<ul>
+<li>"Den Hut auf haben" und sich für das BarCamp verantwortlich fühlen</li>
+<li>Das OrgaTeam zusammenstellen</li>
+<li>Den Aufgabenplan erstellen und überwachen</li>
+<li>Das Budget erstellen und an die Akteure im Orgateam verteilen</li>
+<li>für ein gutes Klima im OrgaTeam sorgen</li>
+<li>Erster Ansprechpartner sein für "Externe" (Veranstalter, Presse, Sponsoren, ... )</li>
+</ul>
+<p>Aufgaben OrgaTeam:</p>
+<ul>
+<li>
+<p>Aufgaben aus dem Aufgabenplan vollständig verteilen (von Marketing über Catering bis Dokumentation)</p>
+</li>
+<li>
+<p>Jeder im Orgateam entscheidet und erledigt eigenverantwortlich seine übernommenen Aufgaben</p>
+</li>
+<li>
+<p>Jeder berichtet regelmäßig im OrgaTeam über den Status seiner Aufgaben</p>
+</li>
+<li>
+<p>Im OrgaTeam entstehen auch neue Ideen für Änderungen im Vorgehen, die gern umgesetzt werden dürfen</p>
+</li>
+<li>
+<p>Die Mitarbeit im OrgaTeam dient auch dazu neue Kompetenzen der OrgaTEam-Mitglieder zu entwickeln</p>
+</li>
+</ul>
+<hr />
+<h3 id="veranstalter-khp">Veranstalter (KHP)</h3>
+<p>Schon aus rechtlichen Gründen braucht es einen offiziellen Veranstalter des BarCamps. Es fallen ja auch Kosten an, z.B. fürs Catering. Für Bestellungen, für Rechnungen an Sponsoren und fürs Bezahlen benötigt man eine Organisation, die die Veranstalter-Rolle Veranstalter ausfüllt. Dabei können auch mehrere Organisationen gemeinsam als Veranstalter auftreten. </p>
+<p>Aufgaben:</p>
+<ul>
+<li>
+<p>Eindeutig verantwortlicher Adressat für die Veranstaltung, von der Vertragsgestaltung bis zur Haftung</p>
+</li>
+<li>
+<p>Vielleicht auch die seriöse Instanz hinter der für viele noch ungewohnten Un-Konferenz BarCamp</p>
+</li>
+<li>
+<p>Veranstalter können sich auch mit eigenen Beiträgen einbringen, um Diskussionen anzuregen oder Meinungen einzusammeln</p>
+</li>
+<li>
+<p>Veranstalter nutzen ihre eigenen Netzwerke um aufs Camp hinzuweisen</p>
+</li>
+<li>
+<p>Veranstalter können sich finanziell, mit Räumen, Personal oder anderen Leistungen beteiligen</p>
+</li>
+</ul>
+<h3 id="fundraiser-khp">Fundraiser (KHP)</h3>
+<p>Ein BarCamp verursacht Kosten. Die Teilgebenden sollen möglichst geringe Hürden zum Mitmachen bekommen. Deshalb sind viele BarCamps kostenlos, oder mit einer geringen Schutzgebühr versehen (Verringernung der No-Show-Rate). Man braucht also Geldgeber für die Finanzierung. </p>
+<p>Was man ausgeben will oder muss, kann bei BarCamps stark variieren. Wer Plenums- und Session-Räume finanzieren muss, braucht deutlich mehr, als nur fürs Catering und evt. den Abendevent. </p>
+<p>Aufgaben:</p>
+<ul>
+<li>
+<p>Grobplan zu allen zu erwartenden Kostenblöcken</p>
+</li>
+<li>
+<p>Festlegen, ob Teilgebende Tickets zu welchem Preis kaufen müssen, oder nicht</p>
+</li>
+<li>
+<p>Abschätzen der realistischen Teilgebendenzahl</p>
+</li>
+<li>
+<p>Kalkulation der Gesamtkosten für die Veranstaltung, </p>
+</li>
+<li>
+<p>Ermittlung des Finanzierungsbedarfes</p>
+</li>
+<li>
+<p>Mögliche Sponsoren mit Interesse am Thema oder an der Zielgruppe identifizieren: Liste erstellen</p>
+</li>
+<li>
+<p>Vorteilspaket für die Sponsoren entwickeln (Logo auf Homepage, Stand im Foyer, Erwähnungen, ...)</p>
+</li>
+<li>
+<p>Mögliche Sponsoren persönlich ansprechen und überzeugen (Mail reicht da nicht)</p>
+</li>
+<li>
+<p>Sponsoren auf die Besonderheit BarCamp einstimmen: Keine reinen Werbe-Sessions, aber Erfahrungen einbringen und sich in die Community integrieren</p>
+</li>
+<li>
+<p>Die Sponsoren öffentlich deutlich machen, ihnen danken</p>
+</li>
+<li>
+<p>Den Sponsoren Rechnungen stellen</p>
+</li>
+</ul>
+<h3 id="lokaler-ansprechpartner-khp">Lokaler Ansprechpartner (KHP)</h3>
+<p>In jedem Gebäude benötigt man einen ortskundigen Ansprechpartner vor und während der Veranstaltung. Mit ihm klärt man alle Fragen zur Gebäudenutzung, von der Parkplatz-Nutzung über die WLAN-Zugänge bis zu den abendlichen Schließregeln. Das können ggf. auch mehrere Partner sein. </p>
+<p>Aufgaben:</p>
+<ul>
+<li>
+<p>Reservierung aller benötigten Plenums- und Flur- Session-Räume</p>
+</li>
+<li>
+<p>Auf- und Abschließen der Räume organisieren</p>
+</li>
+<li>
+<p>Zugang zu Gelände und/oder Parklatz regeln</p>
+</li>
+<li>
+<p>ggf. Begehungen mit Sicherheitsbeauftragten organisieren</p>
+</li>
+<li>
+<p>Anlieferadresse für zu lieferndes Material bereitstellen</p>
+</li>
+<li>
+<p>ggf. Strom für Sponsoren im Flur bereitstellen</p>
+</li>
+<li>
+<p>Zugang für Auf- und Abbau von Caterern klären</p>
+</li>
+<li>
+<p>stabiles WLAN für die erwartete Anzahl Teilgebender bereitstellen</p>
+</li>
+<li>
+<p>Hilfestellung für Technik geben (Beamer, Mikrofone, Beleuchtung, ...)</p>
+</li>
+<li>
+<p>Notfall-Adressen bereitstellen (Strom fällt aus, Fahrstuhl geht nicht, ...)</p>
+</li>
+<li>
+<p>ggf. Tische, Strühle, Flipcharts u. Ähnliches bereitstellen</p>
+</li>
+</ul>
+<h3 id="marketer-khp">Marketer (KHP)</h3>
+<p>BarCamps sind Konferenzen. Nur muss man für BarCamps noch solange intensiver werben, bis alle mal diese andere Konferenzerfahrung gemacht haben. Es geht also ums Überzeugen, dass sich das Mitmachen bei einem "BarCamp" lohnt, auch wenn es vorher noch keine Agenda zur Orientierung gibt. </p>
+<p>Grundsätzlich unterscheidet sich das Marketing für ein BarCamp gar nicht sehr vom Marketing für eine normale Konferenz. Man kann etwa sagen, alle die es schon kennen, brauchen nur einen Anstoß, und alle die BarCamps noch nicht kennen, müssen meist persönlich überzeugt werden. </p>
+<p>Diese Rolle kann auch von mehreren ausgeführt werden.</p>
+<p>Aufgaben:</p>
+<ul>
+<li>
+<p>Inhalte für die Webseite mit allen Infos fürs BarCamp erstellen </p>
+</li>
+<li>
+<p>Eine Plattform zur Vorankündigung von Session-Vorschlägen bereitstellen</p>
+</li>
+<li>
+<p>einen Hashtag vorgeben</p>
+</li>
+<li>
+<p>In bestehenden Netzwerken aufs BarCamp hinweisen</p>
+</li>
+<li>
+<p>Andere überzeugen, in ihren Netzwerken übers BarCamp zu sprechen</p>
+</li>
+<li>
+<p>Interessante Menschen direkt ansprechen zum BarCamp zu kommen und wenn möglich vorher eine Session anzukündigen</p>
+</li>
+<li>
+<p>Regelmäßig in sozialen Medien übers BarCamp berichten</p>
+</li>
+<li>
+<p>evt. Aktionen vor dem BarCamp starten, wie eine thematisch passende Blogprade, ein TwitterChat, ein Webinar mit inhaltlichem Bezug zum BarCamp-Thema, .... </p>
+</li>
+</ul>
+<h3 id="it-verantwortlicher-sd">IT-Verantwortlicher (SD)</h3>
+<p>... 2-3 Absätze Beschreibung der Rolle ...</p>
+<p>Aufgaben:</p>
+<ul>
+<li>...</li>
+</ul>
+<h3 id="community-manager-sd">Community Manager (SD)</h3>
+<p>... 2-3 Absätze Beschreibung der Rolle ...</p>
+<p>Aufgaben:</p>
+<ul>
+<li>...</li>
+</ul>
+<h3 id="moderator-khp">Moderator (KHP)</h3>
+<p>BarCamp-Moderator ist ein nicht ganz treffender Begriff, aber uns fällt auch kein besserer deutscher ein. Jemand muss das BarCamp eröffnen und dabei das Klima des Tages prägen. Alle Teilgebenden müssen sicher sein, sie dürfen heute hier anders sein als sonst, und es wird ihnen nichts passieren. Darauf achtet der "Moderator". </p>
+<p>Die Einstimmung auf das Miteinander-Umgehen beim BarCamp - beonders für die BarCamp-Neulinge - dient eigentlich weniger dem Inhalt, als dem authentischen Herstellen des besonderen BarCamp-Klimas. Vorstellrunde und Sessionplanung sind vom BarCamp-Moderator wirklich zu moderieren. </p>
+<p>Tagsüber darf der Moderator ganz normaler Teilgeber sein, auch mit eigenen Sessions.</p>
+<p>Aufgaben:</p>
+<ul>
+<li>Eröffnung des BarCamps</li>
+<li>Danksagen an Veranstalter und Sponsoren</li>
+<li>Einstimmung zum BarCamp-Ablauf</li>
+<li>Behutsame Einführung des BarCamp-Du - nur für diesen Tag</li>
+<li>Vorstellrunde moderieren</li>
+<li>Zur Session-Vorstellung auf die Bühne einladen</li>
+<li>Interesse an der Session im Plenum abfragen</li>
+<li>Tipp: Am Ende der Sessionplanung die Sessions der ersten Runde mit Raumangaben vorlesen, damit nicht alle gleichzeitig vor der Pinwand lesen müssen</li>
+<li>Tagsüber streng auf die Einhaltung der Sessionzeiten achten (45 Minuten sind keine 47!)</li>
+<li>Am Ende im Plenum den gemeinsamen Tagesabschluß moderieren</li>
+</ul>
+<h3 id="session-planer-sd">Session-Planer (SD)</h3>
+<p>... 2-3 Absätze Beschreibung der Rolle ...</p>
+<p>Aufgaben:</p>
+<ul>
+<li>...</li>
+</ul>
+<h3 id="empfang-und-info-desk-khp">Empfang und Info-Desk (KHP)</h3>
+<p>Obwohl wir bei einem BarCamp Offenheit leben, wollen wir immer wissen, wer alles da ist. Das ist auch aus rechtlichen Gründen nötig. Schließlich ist der Veranstalter für alles haftbar, wenn er z.B. nicht sagen kann, wer einen Schaden verursacht hat. Außerdem ist es ja auch wichtig zu lernen, wieviele Angemeldete doch nicht gekommen sind, um für nächste BarCamps besser planen zu können. </p>
+<p>Und nicht zuletzt geben wir den Teilgebenden gern ein Namensschild - auch wenn sie es selber beschreiben - weil BarCamps auch immer ein Community-Event sind. Und in Communities zählen die Menschen, die man mit Namen ansprechen möchte. </p>
+<p>Tagsüber braucht es einen Ort, an dem man Infos bekommt und wo man Dinge klären kann. All das kann am Empfangs- oder Info-Desk stattfinden</p>
+<p>Aufgaben:</p>
+<ul>
+<li>
+<p>Registrierung der Teilgebenden</p>
+</li>
+<li>
+<p>Ausgabe von Namensschildern</p>
+</li>
+<li>
+<p>Ausgabe von Informationen zum Camp (WLAN-Code, Zeitplan, leerer Sessionplan mit Raumangaben, Info zur gemeinsamen Dokumentation, ggf. Essens-Gutscheine, ...)</p>
+</li>
+<li>
+<p>Ausgabe von leeren Session-Vorschlags-Formularen</p>
+</li>
+<li>
+<p>Hinweise zur Garderobe und zum Plenumsraum</p>
+</li>
+</ul>
+<h3 id="gastebetreuer-sd">Gästebetreuer (SD)</h3>
+<p>... 2-3 Absätze Beschreibung der Rolle, Ansprechpartner sein, Fragen beantworten, "Master of Ceremony" ...</p>
+<p>Aufgaben:</p>
+<ul>
+<li>...</li>
+</ul>
+<h3 id="fotograf-sd">Fotograf (SD)</h3>
+<p>... 2-3 Absätze Beschreibung der Rolle, Ansprechpartner sein, Fragen beantworten, "Master of Ceremony" ...</p>
+<p>Aufgaben:</p>
+<ul>
+<li>...</li>
+</ul>
+<h3 id="videograf-khp">Videograf (KHP)</h3>
+<p>Dokumentation von BarCamps kann auf viele Weise geschehen. Wenn z.B. nach jeder Session ein kurzes Video als Interview mit 2 Session-Besuchern zum Inhalt dieser Session entsteht, wäre das eine wenig aufwändige Art der Session-Dokumentation. </p>
+<p>Auch Eindrücke und Stimmungen vom BarCamp lassen sich über Video gut einfangen. Das erleichtert das Überzeugen von neuen Teilgebenden fürs nächste BarCamp. </p>
+<p>Dafür braucht es mindestens einen, der sich mit Video-Kamera, Stativ und Mikrofon auskennt und beim Camp Interviews macht und anregt. Gern dürfen das auch mehrere sein. </p>
+<p>Aufgaben:</p>
+<ul>
+<li>
+<p>Video-Aufnahmen morgens ankündigen</p>
+</li>
+<li>
+<p>Nach der Sessionplanung eine Auswahl der interessantesten Sessions treffen </p>
+</li>
+<li>
+<p>Wenn möglich in diesen Session mitmachen, um Inhalte und Aktive zum Thema kennzulernen</p>
+</li>
+<li>
+<p>Nach der Session 2 Akteure fragen, ob sie für ein 2-Minuten Video-Gespräch bereit sind</p>
+</li>
+<li>
+<p>Video-Aufnahme-Platz suchen und Interview starten</p>
+</li>
+<li>
+<p>Namen der Gesprächspartner für den Vor- und Abspann abfotografieren</p>
+</li>
+<li>
+<p>Nach der Veranstaltung Videos bearbeiten und auf Youtube stellen</p>
+</li>
+<li>
+<p>Wenn möglich auch Interviews mit anderen Teilgebenden zum Camp machen für ein Atmo-Video</p>
+</li>
+<li>
+<p>ggf. Atmo-Video zusammenschneiden</p>
+</li>
+</ul>
+<h3 id="audiograf-sd">Audiograf (SD)</h3>
+<p>... 2-3 Absätze Beschreibung der Rolle, Ansprechpartner sein, Fragen beantworten, "Master of Ceremony" ...</p>
+<p>Aufgaben:</p>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="barcamp-infrastruktur-sd">BarCamp-Infrastruktur (SD)</h2>
+<p>Webseite, Anmeldeprozess, Community Plattform</p>
+<h2 id="beispiele-von-internen-und-externen-barcamps-sd">Beispiele von internen und externen BarCamps (SD)</h2>
+<p>Alle Beispiele nach einer einheitlichen Struktur in einem Steckbrief-artigen Kapitel, Ansprechpartner für Anfrage/Freigaben in Klammern</p>
+<ul>
+<li>Audi Zusammenarbeit 2.0 Barcamp (Anke W.)</li>
+<li>Telekom Barcamp (Björn B.)</li>
+<li>VW Group Collaboration Barcamp (Anke B.)</li>
+<li>Barcamp Nürnberg (alle Generationen Moderatoren)</li>
+<li>Corporate Learning Camp (Karlheinz/Simon)</li>
+<li>Edunautika (Joeran)</li>
+<li>KnowledgeCamp (Andreas/Simon)</li>
+</ul>
+
+<!-- Source file information -->
+
+
+<!-- Get setting from mkdocs.yml, but allow page-level overrides -->
+
+
+
+<!-- Inject Disqus into current page -->
+
+  <h2 id="__comments">Kommentare</h2>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = "https://cogneon.github.io/1-0-Grundlagen/"
+      this.page.identifier =
+        "1-0-Grundlagen/"
+
+    }
+
+    /* Set up for the first time */
+    if (typeof DISQUS === "undefined") {
+      var script = document.createElement("script")
+      script.async = true
+      script.src = "https://lernos.disqus.com/embed.js"
+      script.setAttribute("data-timestamp", Date.now())
+
+      /* Inject script tag */
+      document.body.appendChild(script)
+
+    /* Set up on navigation (instant loading) */
+    } else {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      })
+    }
+  </script>
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+    
+    
+    
+      
+      
+    
+    <a href="https://colearn.social/@lernos" target="_blank" rel="noopener me" title="colearn.social" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/showcase/lern-os" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cogneon" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.726fbb30.min.js"></script>
+      
+    
+  </body>
+</html>
