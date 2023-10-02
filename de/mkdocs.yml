@@ -15,8 +15,8 @@ nav:
       - E-Book (epub): https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.epub
       - E-Book (mobi): https://github.com/cogneon/lernos-barcamp/blob/master/de/lernOS-Barcamp-Guide-de.mobi
     - Links:
-      - lernOS Website: https://lernos.org
-      - lernOS Community: https://community.cogneon.de
+      - lernos.org: https://lernos.org
+      - CONNECT Community: https://community.cogneon.de
       - Peerfinder: https://web.peerfinder.app
 
 theme:
@@ -37,8 +37,8 @@ repo_url: 'https://github.com/cogneon/lernos-barcamp'
 
 extra:
     social:
-        - icon: fontawesome/brands/twitter
-          link: 'https://twitter.com/lern_os'
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
         - icon: fontawesome/brands/linkedin
           link: 'https://www.linkedin.com/showcase/lern-os'
         - icon: fontawesome/brands/github
@@ -47,13 +47,5 @@ extra:
     analytics:
        provider: custom
 
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
 plugins:
   - search
-  - mermaid2
