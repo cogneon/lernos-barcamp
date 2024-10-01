@@ -1,0 +1,9 @@
+## Geschichte der Barcamps
+
+Das erste [BarCamp](https://en.wikipedia.org/wiki/BarCamp) fand vom 19.-21.08.2005 bei Socialtext in Palo Alto mit 200 Teilnehmern statt. Es wurde in unter einer Woche organisiert. Von dort aus hat sich das Barcamp-Format schnell weltweit verbreitet. Das erste BarCamp entstand als eine öffentliche Alternative zum [Foo Camp](https://en.wikipedia.org/wiki/Foo_Camp), einer jährlichen "invite-only" Unkonferenz des Verlegers Tim O'Reilly.
+
+Das erste Foo Camp fand im August 2003 mit ungefähr 200 Teilnehmern statt. Ausgangspunkt für die Veranstaltung war eine Witzelei zwischen Tim und Sara Winge (damals VP Corporate Communications), die auf einer der O'Reilly Konferenzen mit der "foo bar" eine offene Bar für die Freunde des Verlags (FOO = Friends Of O'Reilly) organisieren wollte. Da nach dem Platzen der Dotcom-Blase standen im Verlag viele Räume leer und die Idee des Foo Camps konnte -[mit einer foo bar](https://justinsomnia.org/2005/08/foo-camp)- in die Tat umgesetzt werden.
+
+Der Socialtext-Gründer Ross Mayfield war Teilnehmer eines Foo Camps. Er und einige andere Teilnehmer wollten eine eigene Version eines Camps organisieren. In der IT-Fachsprache werden mit [Foobar](https://en.wikipedia.org/wiki/Foobar) Platzhalter-Variablen bezeichnet. Durch den Austausch des "Foo" in "Foo Camp" durch das "Bar" entstand der Name "BarCamp".
+
+Das BarCamp Wien war im September 2006 eines der ersten BarCamps im deutschsprachigen Raum. Zu den ersten BarCamps in Deutschland gehört das [Barcamp Nürnberg](http://barcampnuernberg.pbworks.com/w/page/13257771/FrontPage), das vom 16.-17.12.2006 in den Räumen von Novell und dem Linux Business Campus stattfand. Zu den größten Barcamps weltweit gehört das BarCamp Myanmar, das 2013 mit über 6.400 Teilnehmern stattfand. Als übliche Größe für BarCamps hat sich aber eher 50-300 Teilnehmer herausgestellt.

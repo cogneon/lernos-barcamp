@@ -3,7 +3,7 @@ echo Starting lernOS Guide Generation ...
 
 # Variables
 filename="lernOS-Barcamp-Guide-de"
-chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/2-0-Lernpfad.md ./src/3-0-Anhang.md"
+chapters="./src/index.md ./src/1-0-Basics.md ./src/1-1-Barcamp-History.md ./src/1-2-Barcamp-DNA.md ./src/1-3-Barcamp-Organization.md ./src/1-4-Barcamp-Roles.md ./src/1-5-Barcamp-Infrastructure.md ./src/1-6-Barcamp-Examples.md ./src/2-0-Learning-Pathway.md ./src/3-0-Appendix.md"
 
 # Delete Old Versions
 echo Deleting old versions ...
